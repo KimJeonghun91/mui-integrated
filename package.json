@@ -4,6 +4,7 @@
   "description": "mui 커스텀 통합본",
   "dependencies": {
     "clsx": "2.1.0",
+    "@popperjs/core": "2.11.8",
     "react-transition-group": "4.4.5"
   }
 }
