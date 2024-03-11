@@ -1,5 +1,5 @@
 
-import SvgIcon from 'my_mui/material/SvgIcon';
+import SvgIcon from 'my-mui/material/SvgIcon';
 
 type SvgIconComponent = typeof SvgIcon;
 

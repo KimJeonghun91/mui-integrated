@@ -4,9 +4,7 @@ import _extends from "@babel/runtime/helpers/esm/extends";
 import * as React from 'react';
 import SvgIcon from '../SvgIcon';
 
-/**
- * Private module reserved for my_mui packages.
- */
+
 import { jsx as _jsx } from "react/jsx-runtime";
 export default function createSvgIcon(path, displayName) {
   function Component(props, ref) {

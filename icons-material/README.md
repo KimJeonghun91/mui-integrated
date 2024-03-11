@@ -1,4 +1,4 @@
-# my_mui/icons-material
+# @mui/icons-material
 
 This package provides the Google [Material Icons](https://fonts.google.com/icons?icon.set=Material+Icons) converted to [`SvgIcon`](https://mui.com/material-ui/api/svg-icon/) components.
 
@@ -9,7 +9,7 @@ Install the package in your project directory with:
 <!-- #default-branch-switch -->
 
 ```bash
-npm install my_mui/icons-material
+npm install @mui/icons-material
 ```
 
 <!-- #default-branch-switch -->
@@ -19,7 +19,7 @@ These components use the Material UI's [SvgIcon](https://mui.com/material-ui/ap
 If you are not already using Material UI in your project, you can add it with:
 
 ```bash
-npm install my_mui/material
+npm install my-mui/material
 ```
 
 ## Documentation

@@ -31,9 +31,7 @@
     "@floating-ui/react-dom": "^2.0.8",
     "@popperjs/core": "^2.11.8",
     "clsx": "^2.1.0",
-    "prop-types": "^15.8.1",
-    "my-mui/utils": "^5.15.12",
-    "my-mui/types": "^7.2.13"
+    "prop-types": "^15.8.1"
   },
   "peerDependencies": {
     "@types/react": "^17.0.0 || ^18.0.0",
