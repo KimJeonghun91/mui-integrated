@@ -5,6 +5,7 @@
   "dependencies": {
     "clsx": "2.1.0",
     "@popperjs/core": "2.11.8",
+    "@floating-ui/react-dom": "2.0.8",
     "react-transition-group": "4.4.5"
   }
 }
