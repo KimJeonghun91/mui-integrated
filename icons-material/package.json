@@ -1,5 +1,5 @@
 {
-  "name": "@mui/icons-material",
+  "name": "my-mui/icons-material",
   "version": "5.15.12",
   "private": false,
   "author": "MUI Team",
@@ -31,7 +31,6 @@
     "@babel/runtime": "^7.23.9"
   },
   "peerDependencies": {
-    "my-mui/material": "^5.0.0",
     "@types/react": "^17.0.0 || ^18.0.0",
     "react": "^17.0.0 || ^18.0.0"
   },
