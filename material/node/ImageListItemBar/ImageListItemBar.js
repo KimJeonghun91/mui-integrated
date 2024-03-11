@@ -8,7 +8,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutPropertiesLoose"));
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
-var _composeClasses = _interopRequireDefault(require("@mui/utils/composeClasses"));
+var _composeClasses = _interopRequireDefault(require("my-mui/utils/composeClasses"));
 var _clsx = _interopRequireDefault(require("clsx"));
 var _propTypes = _interopRequireDefault(require("prop-types"));
 var React = _interopRequireWildcard(require("react"));

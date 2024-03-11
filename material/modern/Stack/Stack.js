@@ -1,7 +1,7 @@
 'use client';
 
 import PropTypes from 'prop-types';
-import { createStack } from '@mui/system';
+import { createStack } from 'my-mui/system';
 import styled from '../styles/styled';
 import useThemeProps from '../styles/useThemeProps';
 const Stack = createStack({

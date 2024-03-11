@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { SxProps } from '@mui/system';
-import { Theme } from '@mui/material/styles';
-import { SlotComponentProps } from '@mui/base/utils';
+import { SxProps } from 'my-mui/system';
+import { Theme } from 'my-mui/material/styles';
+import { SlotComponentProps } from 'my-mui/base/utils';
 import { PickersCalendarHeader, PickersCalendarHeaderProps, PickersCalendarHeaderSlotsComponent, PickersCalendarHeaderSlotsComponentsProps } from '../PickersCalendarHeader';
 import { DayCalendarSlotsComponent, DayCalendarSlotsComponentsProps, ExportedDayCalendarProps } from './DayCalendar';
 import { DateCalendarClasses } from './dateCalendarClasses';

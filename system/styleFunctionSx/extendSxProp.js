@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = extendSxProp;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutPropertiesLoose"));
-var _deepmerge = require("@mui/utils/deepmerge");
+var _deepmerge = require("my-mui/utils/deepmerge");
 var _defaultSxConfig = _interopRequireDefault(require("./defaultSxConfig"));
 const _excluded = ["sx"];
 const splitProps = props => {

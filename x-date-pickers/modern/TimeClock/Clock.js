@@ -1,10 +1,10 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
 import * as React from 'react';
 import clsx from 'clsx';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
-import { styled, useThemeProps } from '@mui/material/styles';
-import { unstable_useEnhancedEffect as useEnhancedEffect, unstable_composeClasses as composeClasses } from '@mui/utils';
+import IconButton from 'my-mui/material/IconButton';
+import Typography from 'my-mui/material/Typography';
+import { styled, useThemeProps } from 'my-mui/material/styles';
+import { unstable_useEnhancedEffect as useEnhancedEffect, unstable_composeClasses as composeClasses } from 'my-mui/utils';
 import { ClockPointer } from './ClockPointer';
 import { useLocaleText, useUtils } from '../internals/hooks/useUtils';
 import { CLOCK_HOUR_WIDTH, getHours, getMinutes } from './shared';

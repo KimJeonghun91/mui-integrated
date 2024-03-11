@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 exports.unstable_createStyleFunctionSx = unstable_createStyleFunctionSx;
-var _capitalize = _interopRequireDefault(require("@mui/utils/capitalize"));
+var _capitalize = _interopRequireDefault(require("my-mui/utils/capitalize"));
 var _merge = _interopRequireDefault(require("../merge"));
 var _style = require("../style");
 var _breakpoints = require("../breakpoints");

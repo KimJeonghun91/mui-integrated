@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { SxProps } from '@mui/system';
-import { OverridableStringUnion } from '@mui/types';
+import { SxProps } from 'my-mui/system';
+import { OverridableStringUnion } from 'my-mui/types';
 import { OverridableComponent, OverrideProps } from '../OverridableComponent';
 import { Theme } from '../styles';
 import { FormHelperTextClasses } from './formHelperTextClasses';

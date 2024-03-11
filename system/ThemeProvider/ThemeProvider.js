@@ -9,9 +9,9 @@ exports.default = void 0;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 var React = _interopRequireWildcard(require("react"));
 var _propTypes = _interopRequireDefault(require("prop-types"));
-var _privateTheming = require("@mui/private-theming");
-var _exactProp = _interopRequireDefault(require("@mui/utils/exactProp"));
-var _styledEngine = require("@mui/styled-engine");
+var _privateTheming = require("my-mui/private-theming");
+var _exactProp = _interopRequireDefault(require("my-mui/utils/exactProp"));
+var _styledEngine = require("my-mui/styled-engine");
 var _useThemeWithoutDefault = _interopRequireDefault(require("../useThemeWithoutDefault"));
 var _jsxRuntime = require("react/jsx-runtime");
 function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }

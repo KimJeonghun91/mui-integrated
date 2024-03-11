@@ -3,7 +3,7 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { GlobalStyles as SystemGlobalStyles } from '@mui/system';
+import { GlobalStyles as SystemGlobalStyles } from 'my-mui/system';
 import defaultTheme from '../styles/defaultTheme';
 import THEME_ID from '../styles/identifier';
 import { jsx as _jsx } from "react/jsx-runtime";

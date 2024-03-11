@@ -5,8 +5,8 @@ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWith
 const _excluded = ["className", "elementType", "ownerState", "externalForwardedProps", "getSlotOwnerState", "internalForwardedProps"],
   _excluded2 = ["component", "slots", "slotProps"],
   _excluded3 = ["component"];
-import useForkRef from '@mui/utils/useForkRef';
-import { appendOwnerState, resolveComponentProps, mergeSlotProps } from '@mui/base/utils';
+import useForkRef from 'my-mui/utils/useForkRef';
+import { appendOwnerState, resolveComponentProps, mergeSlotProps } from 'my-mui/base/utils';
 /**
  * An internal function to create a Material UI slot.
  *

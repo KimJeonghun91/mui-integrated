@@ -3,7 +3,7 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
 import _slicedToArray from "@babel/runtime/helpers/esm/slicedToArray";
 import * as React from 'react';
-import { unstable_useControlled as useControlled } from '@mui/utils';
+import { unstable_useControlled as useControlled } from 'my-mui/utils';
 import { useCompoundParent } from '../useCompound';
 /**
  *

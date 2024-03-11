@@ -4,11 +4,11 @@ const _excluded = ["props", "getOpenDialogAriaText"],
   _excluded2 = ["ownerState"],
   _excluded3 = ["ownerState"];
 import * as React from 'react';
-import { useSlotProps } from '@mui/base/utils';
-import MuiInputAdornment from '@mui/material/InputAdornment';
-import IconButton from '@mui/material/IconButton';
-import useForkRef from '@mui/utils/useForkRef';
-import useId from '@mui/utils/useId';
+import { useSlotProps } from 'my-mui/base/utils';
+import MuiInputAdornment from 'my-mui/material/InputAdornment';
+import IconButton from 'my-mui/material/IconButton';
+import useForkRef from 'my-mui/utils/useForkRef';
+import useId from 'my-mui/utils/useId';
 import { PickersPopper } from '../../components/PickersPopper';
 import { useUtils } from '../useUtils';
 import { usePicker } from '../usePicker';

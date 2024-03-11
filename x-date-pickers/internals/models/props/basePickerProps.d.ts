@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Theme } from '@mui/material/styles';
-import { SxProps } from '@mui/system';
+import { Theme } from 'my-mui/material/styles';
+import { SxProps } from 'my-mui/system';
 import { UsePickerBaseProps } from '../../hooks/usePicker';
 import { PickersInputComponentLocaleText } from '../../../locales/utils/pickersLocaleTextApi';
 import type { UsePickerViewsProps } from '../../hooks/usePicker/usePickerViews';

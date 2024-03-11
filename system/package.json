@@ -1,5 +1,5 @@
 {
-  "name": "@mui/system",
+  "name": "my-mui/system",
   "version": "5.15.12",
   "private": false,
   "author": "MUI Team",
@@ -30,10 +30,10 @@
     "clsx": "^2.1.0",
     "csstype": "^3.1.3",
     "prop-types": "^15.8.1",
-    "@mui/utils": "^5.15.12",
-    "@mui/private-theming": "^5.15.12",
-    "@mui/types": "^7.2.13",
-    "@mui/styled-engine": "^5.15.11"
+    "my-mui/utils": "^5.15.12",
+    "my-mui/private-theming": "^5.15.12",
+    "my-mui/types": "^7.2.13",
+    "my-mui/styled-engine": "^5.15.11"
   },
   "peerDependencies": {
     "@emotion/react": "^11.5.0",

@@ -3,8 +3,8 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
 import _defineProperty from "@babel/runtime/helpers/esm/defineProperty";
 import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutProperties";
-import useForkRef from '@mui/utils/useForkRef';
-import { appendOwnerState, resolveComponentProps, mergeSlotProps } from '@mui/base/utils';
+import useForkRef from 'my-mui/utils/useForkRef';
+import { appendOwnerState, resolveComponentProps, mergeSlotProps } from 'my-mui/base/utils';
 /**
  * An internal function to create a Material UI slot.
  *

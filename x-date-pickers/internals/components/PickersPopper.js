@@ -2,14 +2,14 @@ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWith
 import _extends from "@babel/runtime/helpers/esm/extends";
 const _excluded = ["PaperComponent", "popperPlacement", "ownerState", "children", "paperSlotProps", "paperClasses", "onPaperClick", "onPaperTouchStart"];
 import * as React from 'react';
-import { useSlotProps } from '@mui/base/utils';
-import Grow from '@mui/material/Grow';
-import Fade from '@mui/material/Fade';
-import MuiPaper from '@mui/material/Paper';
-import MuiPopper from '@mui/material/Popper';
-import BaseFocusTrap from '@mui/material/Unstable_TrapFocus';
-import { unstable_useForkRef as useForkRef, unstable_useEventCallback as useEventCallback, unstable_ownerDocument as ownerDocument, unstable_composeClasses as composeClasses } from '@mui/utils';
-import { styled, useThemeProps } from '@mui/material/styles';
+import { useSlotProps } from 'my-mui/base/utils';
+import Grow from 'my-mui/material/Grow';
+import Fade from 'my-mui/material/Fade';
+import MuiPaper from 'my-mui/material/Paper';
+import MuiPopper from 'my-mui/material/Popper';
+import BaseFocusTrap from 'my-mui/material/Unstable_TrapFocus';
+import { unstable_useForkRef as useForkRef, unstable_useEventCallback as useEventCallback, unstable_ownerDocument as ownerDocument, unstable_composeClasses as composeClasses } from 'my-mui/utils';
+import { styled, useThemeProps } from 'my-mui/material/styles';
 import { getPickersPopperUtilityClass } from './pickersPopperClasses';
 import { getActiveElement } from '../utils/utils';
 import { useDefaultReduceAnimations } from '../hooks/useDefaultReduceAnimations';
@@ -49,7 +49,7 @@ function clickedRootScrollbar(event, doc) {
   return doc.documentElement.clientWidth < event.clientX || doc.documentElement.clientHeight < event.clientY;
 }
 /**
- * Based on @mui/material/ClickAwayListener without the customization.
+ * Based on my-mui/material/ClickAwayListener without the customization.
  * We can probably strip away even more since children won't be portaled.
  * @param {boolean} active Only listen to clicks when the popper is opened.
  * @param {(event: MouseEvent | TouchEvent) => void} onClickAway The callback to call when clicking outside the popper.

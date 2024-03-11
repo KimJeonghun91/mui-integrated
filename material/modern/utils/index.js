@@ -1,6 +1,6 @@
 'use client';
 
-import { unstable_ClassNameGenerator as ClassNameGenerator } from '@mui/base/ClassNameGenerator';
+import { unstable_ClassNameGenerator as ClassNameGenerator } from 'my-mui/base/ClassNameGenerator';
 export { default as capitalize } from './capitalize';
 export { default as createChainedFunction } from './createChainedFunction';
 export { default as createSvgIcon } from './createSvgIcon';
@@ -23,7 +23,7 @@ export { default as useIsFocusVisible } from './useIsFocusVisible';
 export const unstable_ClassNameGenerator = {
   configure: generator => {
     if (process.env.NODE_ENV !== 'production') {
-      console.warn(['MUI: `ClassNameGenerator` import from `@mui/material/utils` is outdated and might cause unexpected issues.', '', "You should use `import { unstable_ClassNameGenerator } from '@mui/material/className'` instead", '', 'The detail of the issue: https://github.com/mui/material-ui/issues/30011#issuecomment-1024993401', '', 'The updated documentation: https://mui.com/guides/classname-generator/'].join('\n'));
+      console.warn(['MUI: `ClassNameGenerator` import from `my-mui/material/utils` is outdated and might cause unexpected issues.', '', "You should use `import { unstable_ClassNameGenerator } from 'my-mui/material/className'` instead", '', 'The detail of the issue: https://github.com/mui/material-ui/issues/30011#issuecomment-1024993401', '', 'The updated documentation: https://mui.com/guides/classname-generator/'].join('\n'));
     }
     ClassNameGenerator.configure(generator);
   }

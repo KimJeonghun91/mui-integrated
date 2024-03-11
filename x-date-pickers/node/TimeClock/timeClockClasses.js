@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.getTimeClockUtilityClass = getTimeClockUtilityClass;
 exports.timeClockClasses = void 0;
-var _utils = require("@mui/utils");
+var _utils = require("my-mui/utils");
 function getTimeClockUtilityClass(slot) {
   return (0, _utils.unstable_generateUtilityClass)('MuiTimeClock', slot);
 }

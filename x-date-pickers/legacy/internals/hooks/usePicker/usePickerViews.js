@@ -3,8 +3,8 @@ import _slicedToArray from "@babel/runtime/helpers/esm/slicedToArray";
 import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutProperties";
 var _excluded = ["className", "sx"];
 import * as React from 'react';
-import useEnhancedEffect from '@mui/utils/useEnhancedEffect';
-import useEventCallback from '@mui/utils/useEventCallback';
+import useEnhancedEffect from 'my-mui/utils/useEnhancedEffect';
+import useEventCallback from 'my-mui/utils/useEventCallback';
 import { useViews } from '../useViews';
 import { isTimeView } from '../../utils/time-utils';
 

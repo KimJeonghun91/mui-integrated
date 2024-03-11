@@ -8,8 +8,8 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = useSlot;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutPropertiesLoose"));
-var _useForkRef = _interopRequireDefault(require("@mui/utils/useForkRef"));
-var _utils = require("@mui/base/utils");
+var _useForkRef = _interopRequireDefault(require("my-mui/utils/useForkRef"));
+var _utils = require("my-mui/base/utils");
 const _excluded = ["className", "elementType", "ownerState", "externalForwardedProps", "getSlotOwnerState", "internalForwardedProps"],
   _excluded2 = ["component", "slots", "slotProps"],
   _excluded3 = ["component"];

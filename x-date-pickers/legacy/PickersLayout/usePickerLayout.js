@@ -1,7 +1,7 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
 import * as React from 'react';
-import { useSlotProps } from '@mui/base/utils';
-import { unstable_composeClasses as composeClasses } from '@mui/utils';
+import { useSlotProps } from 'my-mui/base/utils';
+import { unstable_composeClasses as composeClasses } from 'my-mui/utils';
 import { PickersActionBar } from '../PickersActionBar';
 import { getPickersLayoutUtilityClass } from './pickersLayoutClasses';
 import { PickersShortcuts } from '../PickersShortcuts';

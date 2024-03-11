@@ -6,7 +6,7 @@ const _excluded = ["children", "className", "only"];
 import * as React from 'react';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
-import composeClasses from '@mui/utils/composeClasses';
+import composeClasses from 'my-mui/utils/composeClasses';
 import capitalize from '../utils/capitalize';
 import styled from '../styles/styled';
 import useTheme from '../styles/useTheme';

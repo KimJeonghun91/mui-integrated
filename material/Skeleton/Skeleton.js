@@ -11,8 +11,8 @@ let _ = t => t,
 import * as React from 'react';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
-import { keyframes, css } from '@mui/system';
-import composeClasses from '@mui/utils/composeClasses';
+import { keyframes, css } from 'my-mui/system';
+import composeClasses from 'my-mui/utils/composeClasses';
 import { alpha, unstable_getUnit as getUnit, unstable_toUnitless as toUnitless } from '../styles';
 import styled from '../styles/styled';
 import useThemeProps from '../styles/useThemeProps';

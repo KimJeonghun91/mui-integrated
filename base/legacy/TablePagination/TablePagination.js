@@ -4,7 +4,7 @@ import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutProperties";
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { unstable_useId as useId, chainPropTypes, integerPropType } from '@mui/utils';
+import { unstable_useId as useId, chainPropTypes, integerPropType } from 'my-mui/utils';
 import { useSlotProps } from '../utils';
 import { unstable_composeClasses as composeClasses } from '../composeClasses';
 import { isHostComponent } from '../utils/isHostComponent';

@@ -5,7 +5,7 @@ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWith
 const _excluded = ["colSpan", "count", "getItemAriaLabel", "labelDisplayedRows", "labelId", "labelRowsPerPage", "onPageChange", "onRowsPerPageChange", "page", "rowsPerPage", "rowsPerPageOptions", "selectId", "slotProps", "slots"];
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { unstable_useId as useId, chainPropTypes, integerPropType } from '@mui/utils';
+import { unstable_useId as useId, chainPropTypes, integerPropType } from 'my-mui/utils';
 import { useSlotProps } from '../utils';
 import { unstable_composeClasses as composeClasses } from '../composeClasses';
 import { isHostComponent } from '../utils/isHostComponent';

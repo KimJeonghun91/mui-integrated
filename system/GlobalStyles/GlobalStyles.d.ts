@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Interpolation } from '@mui/styled-engine';
+import { Interpolation } from 'my-mui/styled-engine';
 import { Theme as SystemTheme } from '../createTheme';
 export interface GlobalStylesProps<Theme = SystemTheme> {
     styles: Interpolation<Theme>;

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { SxProps } from '@mui/system';
-import { Theme } from '@mui/material/styles';
+import { SxProps } from 'my-mui/system';
+import { Theme } from 'my-mui/material/styles';
 import { DateOrTimeViewWithMeridiem } from '../common';
 export interface BaseToolbarProps<TValue, TView extends DateOrTimeViewWithMeridiem> extends ExportedBaseToolbarProps {
     isLandscape: boolean;

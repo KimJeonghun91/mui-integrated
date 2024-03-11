@@ -64,7 +64,7 @@ export interface PickersComponentNameToClassKey {
   MuiYearCalendar: YearCalendarClassKey;
 }
 
-declare module '@mui/material/styles' {
+declare module 'my-mui/material/styles' {
   interface ComponentNameToClassKey extends PickersComponentNameToClassKey {}
 }
 

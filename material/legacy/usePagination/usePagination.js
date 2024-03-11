@@ -4,7 +4,7 @@ import _extends from "@babel/runtime/helpers/esm/extends";
 import _toConsumableArray from "@babel/runtime/helpers/esm/toConsumableArray";
 import _slicedToArray from "@babel/runtime/helpers/esm/slicedToArray";
 import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutProperties";
-import useControlled from '@mui/utils/useControlled';
+import useControlled from 'my-mui/utils/useControlled';
 export default function usePagination() {
   var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
   // keep default values in sync with @default tags in Pagination.propTypes

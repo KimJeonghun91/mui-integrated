@@ -1,8 +1,8 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
 import * as React from 'react';
-import Stack from '@mui/material/Stack';
-import Typography from '@mui/material/Typography';
-import { textFieldClasses } from '@mui/material/TextField';
+import Stack from 'my-mui/material/Stack';
+import Typography from 'my-mui/material/Typography';
+import { textFieldClasses } from 'my-mui/material/TextField';
 import { jsx as _jsx } from "react/jsx-runtime";
 import { jsxs as _jsxs } from "react/jsx-runtime";
 const getChildTypeFromChildName = childName => {

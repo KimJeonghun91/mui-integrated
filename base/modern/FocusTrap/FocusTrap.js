@@ -3,7 +3,7 @@
 /* eslint-disable consistent-return, jsx-a11y/no-noninteractive-tabindex */
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { exactProp, elementAcceptingRef, unstable_useForkRef as useForkRef, unstable_ownerDocument as ownerDocument } from '@mui/utils';
+import { exactProp, elementAcceptingRef, unstable_useForkRef as useForkRef, unstable_ownerDocument as ownerDocument } from 'my-mui/utils';
 import { jsx as _jsx } from "react/jsx-runtime";
 import { jsxs as _jsxs } from "react/jsx-runtime";
 // Inspired by https://github.com/focus-trap/tabbable

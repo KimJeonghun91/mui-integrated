@@ -5,11 +5,11 @@ const _excluded = ["slots", "slotProps", "components", "componentsProps", "curre
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import Fade from '@mui/material/Fade';
-import { styled, useThemeProps } from '@mui/material/styles';
-import { useSlotProps } from '@mui/base/utils';
-import { unstable_composeClasses as composeClasses } from '@mui/utils';
-import IconButton from '@mui/material/IconButton';
+import Fade from 'my-mui/material/Fade';
+import { styled, useThemeProps } from 'my-mui/material/styles';
+import { useSlotProps } from 'my-mui/base/utils';
+import { unstable_composeClasses as composeClasses } from 'my-mui/utils';
+import IconButton from 'my-mui/material/IconButton';
 import { useLocaleText, useUtils } from '../internals/hooks/useUtils';
 import { PickersFadeTransitionGroup } from '../DateCalendar/PickersFadeTransitionGroup';
 import { ArrowDropDownIcon } from '../icons';

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { SlotComponentProps } from '@mui/base/utils';
-import TextField from '@mui/material/TextField';
+import { SlotComponentProps } from 'my-mui/base/utils';
+import TextField from 'my-mui/material/TextField';
 import { FieldSlotsComponents, FieldSlotsComponentsProps } from '../internals';
 import { DateValidationError, FieldSection } from '../models';
 import { UseFieldInternalProps } from '../internals/hooks/useField';
@@ -22,8 +22,8 @@ export type DateFieldOwnerState<TDate> = DateFieldProps<TDate>;
 export interface DateFieldSlotsComponent extends FieldSlotsComponents {
     /**
      * Form control with an input to render the value.
-     * Receives the same props as `@mui/material/TextField`.
-     * @default TextField from '@mui/material'
+     * Receives the same props as `my-mui/material/TextField`.
+     * @default TextField from 'my-mui/material'
      */
     TextField?: React.ElementType;
 }

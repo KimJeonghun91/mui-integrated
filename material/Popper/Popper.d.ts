@@ -1,5 +1,5 @@
-import { PopperProps as BasePopperProps } from '@mui/base/Popper';
-import { SxProps } from '@mui/system';
+import { PopperProps as BasePopperProps } from 'my-mui/base/Popper';
+import { SxProps } from 'my-mui/system';
 import * as React from 'react';
 import { Theme } from '../styles';
 export type PopperProps = Omit<BasePopperProps, 'direction'> & {

@@ -8,11 +8,11 @@ const _excluded = ["autoComplete", "autoHighlight", "autoSelect", "blurOnSelect"
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import integerPropType from '@mui/utils/integerPropType';
-import chainPropTypes from '@mui/utils/chainPropTypes';
-import { useAutocomplete, createFilterOptions } from '@mui/base';
-import composeClasses from '@mui/utils/composeClasses';
-import { alpha } from '@mui/system/colorManipulator';
+import integerPropType from 'my-mui/utils/integerPropType';
+import chainPropTypes from 'my-mui/utils/chainPropTypes';
+import { useAutocomplete, createFilterOptions } from 'my-mui/base';
+import composeClasses from 'my-mui/utils/composeClasses';
+import { alpha } from 'my-mui/system/colorManipulator';
 import Popper from '../Popper';
 import ListSubheader from '../ListSubheader';
 import Paper from '../Paper';

@@ -7,8 +7,8 @@ const _excluded = ["BackdropProps"],
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import integerPropType from '@mui/utils/integerPropType';
-import composeClasses from '@mui/utils/composeClasses';
+import integerPropType from 'my-mui/utils/integerPropType';
+import composeClasses from 'my-mui/utils/composeClasses';
 import Modal from '../Modal';
 import Slide from '../Slide';
 import Paper from '../Paper';

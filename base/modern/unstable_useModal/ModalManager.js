@@ -1,4 +1,4 @@
-import { unstable_ownerWindow as ownerWindow, unstable_ownerDocument as ownerDocument, unstable_getScrollbarSize as getScrollbarSize } from '@mui/utils';
+import { unstable_ownerWindow as ownerWindow, unstable_ownerDocument as ownerDocument, unstable_getScrollbarSize as getScrollbarSize } from 'my-mui/utils';
 // Is a vertical scrollbar displayed?
 function isOverflowing(container) {
   const doc = ownerDocument(container);

@@ -1,2 +1,2 @@
-import ownerDocument from '@mui/utils/ownerDocument';
+import ownerDocument from 'my-mui/utils/ownerDocument';
 export default ownerDocument;

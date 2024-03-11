@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = adaptV4Theme;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutPropertiesLoose"));
-var _system = require("@mui/system");
+var _system = require("my-mui/system");
 const _excluded = ["defaultProps", "mixins", "overrides", "palette", "props", "styleOverrides"],
   _excluded2 = ["type", "mode"];
 function adaptV4Theme(inputTheme) {

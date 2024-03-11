@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { SlotComponentProps } from '@mui/base';
-import { Mark } from '@mui/base/useSlider';
-import { SxProps } from '@mui/system';
-import { OverridableStringUnion } from '@mui/types';
+import { SlotComponentProps } from 'my-mui/base';
+import { Mark } from 'my-mui/base/useSlider';
+import { SxProps } from 'my-mui/system';
+import { OverridableStringUnion } from 'my-mui/types';
 import { Theme } from '../styles';
 import { OverrideProps, OverridableComponent } from '../OverridableComponent';
 import SliderValueLabelComponent from './SliderValueLabel';

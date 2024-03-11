@@ -4,9 +4,9 @@ const _excluded = ["autoFocus", "onViewChange", "value", "defaultValue", "refere
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import { useSlotProps } from '@mui/base/utils';
-import { styled, useThemeProps } from '@mui/material/styles';
-import { unstable_composeClasses as composeClasses, unstable_useId as useId, unstable_useEventCallback as useEventCallback } from '@mui/utils';
+import { useSlotProps } from 'my-mui/base/utils';
+import { styled, useThemeProps } from 'my-mui/material/styles';
+import { unstable_composeClasses as composeClasses, unstable_useId as useId, unstable_useEventCallback as useEventCallback } from 'my-mui/utils';
 import { useCalendarState } from './useCalendarState';
 import { useDefaultDates, useUtils } from '../internals/hooks/useUtils';
 import { PickersFadeTransitionGroup } from './PickersFadeTransitionGroup';

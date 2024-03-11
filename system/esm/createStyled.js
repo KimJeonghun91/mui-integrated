@@ -4,10 +4,10 @@ const _excluded = ["ownerState"],
   _excluded2 = ["variants"],
   _excluded3 = ["name", "slot", "skipVariantsResolver", "skipSx", "overridesResolver"];
 /* eslint-disable no-underscore-dangle */
-import styledEngineStyled, { internal_processStyles as processStyles } from '@mui/styled-engine';
-import { isPlainObject } from '@mui/utils/deepmerge';
-import capitalize from '@mui/utils/capitalize';
-import getDisplayName from '@mui/utils/getDisplayName';
+import styledEngineStyled, { internal_processStyles as processStyles } from 'my-mui/styled-engine';
+import { isPlainObject } from 'my-mui/utils/deepmerge';
+import capitalize from 'my-mui/utils/capitalize';
+import getDisplayName from 'my-mui/utils/getDisplayName';
 import createTheme from './createTheme';
 import styleFunctionSx from './styleFunctionSx';
 function isEmpty(obj) {

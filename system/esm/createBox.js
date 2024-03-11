@@ -5,7 +5,7 @@ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWith
 const _excluded = ["className", "component"];
 import * as React from 'react';
 import clsx from 'clsx';
-import styled from '@mui/styled-engine';
+import styled from 'my-mui/styled-engine';
 import styleFunctionSx, { extendSxProp } from './styleFunctionSx';
 import useTheme from './useTheme';
 import { jsx as _jsx } from "react/jsx-runtime";

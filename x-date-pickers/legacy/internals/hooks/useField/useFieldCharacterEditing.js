@@ -1,7 +1,7 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
 import _slicedToArray from "@babel/runtime/helpers/esm/slicedToArray";
 import * as React from 'react';
-import useEventCallback from '@mui/utils/useEventCallback';
+import useEventCallback from 'my-mui/utils/useEventCallback';
 import { useUtils } from '../useUtils';
 import { changeSectionValueFormat, cleanDigitSectionValue, doesSectionFormatHaveLeadingZeros, getDateSectionConfigFromFormatToken, getDaysInWeekStr, getLetterEditingOptions } from './useField.utils';
 

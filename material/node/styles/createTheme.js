@@ -8,11 +8,11 @@ exports.createMuiTheme = createMuiTheme;
 exports.default = void 0;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutPropertiesLoose"));
-var _formatMuiErrorMessage2 = _interopRequireDefault(require("@mui/utils/formatMuiErrorMessage"));
-var _deepmerge = _interopRequireDefault(require("@mui/utils/deepmerge"));
-var _styleFunctionSx = _interopRequireWildcard(require("@mui/system/styleFunctionSx"));
-var _createTheme = _interopRequireDefault(require("@mui/system/createTheme"));
-var _generateUtilityClass = _interopRequireDefault(require("@mui/utils/generateUtilityClass"));
+var _formatMuiErrorMessage2 = _interopRequireDefault(require("my-mui/utils/formatMuiErrorMessage"));
+var _deepmerge = _interopRequireDefault(require("my-mui/utils/deepmerge"));
+var _styleFunctionSx = _interopRequireWildcard(require("my-mui/system/styleFunctionSx"));
+var _createTheme = _interopRequireDefault(require("my-mui/system/createTheme"));
+var _generateUtilityClass = _interopRequireDefault(require("my-mui/utils/generateUtilityClass"));
 var _createMixins = _interopRequireDefault(require("./createMixins"));
 var _createPalette = _interopRequireDefault(require("./createPalette"));
 var _createTypography = _interopRequireDefault(require("./createTypography"));
@@ -48,7 +48,7 @@ Please use another name.` : (0, _formatMuiErrorMessage2.default)(18));
   muiTheme = (0, _deepmerge.default)(muiTheme, other);
   muiTheme = args.reduce((acc, argument) => (0, _deepmerge.default)(acc, argument), muiTheme);
   if (process.env.NODE_ENV !== 'production') {
-    // TODO v6: Refactor to use globalStateClassesMapping from @mui/utils once `readOnly` state class is used in Rating component.
+    // TODO v6: Refactor to use globalStateClassesMapping from my-mui/utils once `readOnly` state class is used in Rating component.
     const stateClasses = ['active', 'checked', 'completed', 'disabled', 'error', 'expanded', 'focused', 'focusVisible', 'required', 'selected'];
     const traverse = (node, component) => {
       let key;
@@ -91,7 +91,7 @@ function createMuiTheme(...args) {
   if (process.env.NODE_ENV !== 'production') {
     if (!warnedOnce) {
       warnedOnce = true;
-      console.error(['MUI: the createMuiTheme function was renamed to createTheme.', '', "You should use `import { createTheme } from '@mui/material/styles'`"].join('\n'));
+      console.error(['MUI: the createMuiTheme function was renamed to createTheme.', '', "You should use `import { createTheme } from 'my-mui/material/styles'`"].join('\n'));
     }
   }
   return createTheme(...args);

@@ -1,5 +1,5 @@
-import generateUtilityClasses from '@mui/utils/generateUtilityClasses';
-import generateUtilityClass from '@mui/utils/generateUtilityClass';
+import generateUtilityClasses from 'my-mui/utils/generateUtilityClasses';
+import generateUtilityClass from 'my-mui/utils/generateUtilityClass';
 export function getListItemIconUtilityClass(slot) {
   return generateUtilityClass('MuiListItemIcon', slot);
 }

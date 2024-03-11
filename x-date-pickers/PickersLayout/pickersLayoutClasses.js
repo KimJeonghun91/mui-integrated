@@ -1,5 +1,5 @@
-import generateUtilityClass from '@mui/utils/generateUtilityClass';
-import generateUtilityClasses from '@mui/utils/generateUtilityClasses';
+import generateUtilityClass from 'my-mui/utils/generateUtilityClass';
+import generateUtilityClasses from 'my-mui/utils/generateUtilityClasses';
 export function getPickersLayoutUtilityClass(slot) {
   return generateUtilityClass('MuiPickersLayout', slot);
 }

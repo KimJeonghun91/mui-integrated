@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = propsToClassKey;
 var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutPropertiesLoose"));
-var _capitalize = _interopRequireDefault(require("@mui/utils/capitalize"));
+var _capitalize = _interopRequireDefault(require("my-mui/utils/capitalize"));
 const _excluded = ["variant"];
 function isEmpty(string) {
   return string.length === 0;

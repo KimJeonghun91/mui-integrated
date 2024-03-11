@@ -6,8 +6,8 @@ const _excluded = ["action", "children", "className", "closeText", "color", "com
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import composeClasses from '@mui/utils/composeClasses';
-import { darken, lighten } from '@mui/system/colorManipulator';
+import composeClasses from 'my-mui/utils/composeClasses';
+import { darken, lighten } from 'my-mui/system/colorManipulator';
 import { styled, createUseThemeProps } from '../zero-styled';
 import useSlot from '../utils/useSlot';
 import capitalize from '../utils/capitalize';

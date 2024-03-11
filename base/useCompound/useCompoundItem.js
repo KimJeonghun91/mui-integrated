@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { unstable_useEnhancedEffect as useEnhancedEffect } from '@mui/utils';
+import { unstable_useEnhancedEffect as useEnhancedEffect } from 'my-mui/utils';
 import { CompoundComponentContext } from './useCompoundParent';
 /**
  * Registers a child component with the parent component.

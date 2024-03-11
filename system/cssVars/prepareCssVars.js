@@ -8,7 +8,7 @@ exports.default = void 0;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 var _toPropertyKey2 = _interopRequireDefault(require("@babel/runtime/helpers/toPropertyKey"));
 var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutPropertiesLoose"));
-var _deepmerge = _interopRequireDefault(require("@mui/utils/deepmerge"));
+var _deepmerge = _interopRequireDefault(require("my-mui/utils/deepmerge"));
 var _cssVarsParser = _interopRequireDefault(require("./cssVarsParser"));
 const _excluded = ["colorSchemes", "components", "defaultColorScheme"];
 function prepareCssVars(theme, parserConfig) {

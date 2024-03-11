@@ -1,5 +1,5 @@
 /**
- * @mui/material v5.15.12
+ * my-mui/material v5.15.12
  *
  * @license MIT
  * This source code is licensed under the MIT license found in the
@@ -10469,7 +10469,7 @@
         throw new Error("MUI: The color".concat(name ? " (".concat(name, ")") : '', " provided to augmentColor(color) is invalid.\nThe color object needs to have a `main` property or a `").concat(mainShade, "` property.") );
       }
       if (typeof color.main !== 'string') {
-        throw new Error("MUI: The color".concat(name ? " (".concat(name, ")") : '', " provided to augmentColor(color) is invalid.\n`color.main` should be a string, but `").concat(JSON.stringify(color.main), "` was provided instead.\n\nDid you intend to use one of the following approaches?\n\nimport { green } from \"@mui/material/colors\";\n\nconst theme1 = createTheme({ palette: {\n  primary: green,\n} });\n\nconst theme2 = createTheme({ palette: {\n  primary: { main: green[500] },\n} });") );
+        throw new Error("MUI: The color".concat(name ? " (".concat(name, ")") : '', " provided to augmentColor(color) is invalid.\n`color.main` should be a string, but `").concat(JSON.stringify(color.main), "` was provided instead.\n\nDid you intend to use one of the following approaches?\n\nimport { green } from \"my-mui/material/colors\";\n\nconst theme1 = createTheme({ palette: {\n  primary: green,\n} });\n\nconst theme2 = createTheme({ palette: {\n  primary: { main: green[500] },\n} });") );
       }
       addLightOrDark(color, 'light', lightShade, tonalOffset);
       addLightOrDark(color, 'dark', darkShade, tonalOffset);
@@ -10790,7 +10790,7 @@
       return deepmerge(acc, argument);
     }, muiTheme);
     {
-      // TODO v6: Refactor to use globalStateClassesMapping from @mui/utils once `readOnly` state class is used in Rating component.
+      // TODO v6: Refactor to use globalStateClassesMapping from my-mui/utils once `readOnly` state class is used in Rating component.
       var stateClasses = ['active', 'checked', 'completed', 'disabled', 'error', 'expanded', 'focused', 'focusVisible', 'required', 'selected'];
       var traverse = function traverse(node, component) {
         var key;
@@ -10831,7 +10831,7 @@
     {
       if (!warnedOnce$1) {
         warnedOnce$1 = true;
-        console.error(['MUI: the createMuiTheme function was renamed to createTheme.', '', "You should use `import { createTheme } from '@mui/material/styles'`"].join('\n'));
+        console.error(['MUI: the createMuiTheme function was renamed to createTheme.', '', "You should use `import { createTheme } from 'my-mui/material/styles'`"].join('\n'));
       }
     }
     return createTheme.apply(void 0, arguments);
@@ -10851,7 +10851,7 @@
   // To remove in v6
   function createStyles(styles) {
     if (!warnedOnce) {
-      console.warn(['MUI: createStyles from @mui/material/styles is deprecated.', 'Please use @mui/styles/createStyles'].join('\n'));
+      console.warn(['MUI: createStyles from my-mui/material/styles is deprecated.', 'Please use my-mui/styles/createStyles'].join('\n'));
       warnedOnce = true;
     }
     return styles;
@@ -11095,15 +11095,15 @@
   } ;
 
   function makeStyles() {
-    throw new Error("MUI: makeStyles is no longer exported from @mui/material/styles.\nYou have to import it from @mui/styles.\nSee https://mui.com/r/migration-v4/#mui-material-styles for more details." );
+    throw new Error("MUI: makeStyles is no longer exported from my-mui/material/styles.\nYou have to import it from my-mui/styles.\nSee https://mui.com/r/migration-v4/#mui-material-styles for more details." );
   }
 
   function withStyles() {
-    throw new Error("MUI: withStyles is no longer exported from @mui/material/styles.\nYou have to import it from @mui/styles.\nSee https://mui.com/r/migration-v4/#mui-material-styles for more details." );
+    throw new Error("MUI: withStyles is no longer exported from my-mui/material/styles.\nYou have to import it from my-mui/styles.\nSee https://mui.com/r/migration-v4/#mui-material-styles for more details." );
   }
 
   function withTheme() {
-    throw new Error("MUI: withTheme is no longer exported from @mui/material/styles.\nYou have to import it from @mui/styles.\nSee https://mui.com/r/migration-v4/#mui-material-styles for more details." );
+    throw new Error("MUI: withTheme is no longer exported from my-mui/material/styles.\nYou have to import it from my-mui/styles.\nSee https://mui.com/r/migration-v4/#mui-material-styles for more details." );
   }
 
   function shouldSkipGeneratingVar(keys) {
@@ -11693,7 +11693,7 @@
   var unstable_ClassNameGenerator = {
     configure: function configure(generator) {
       {
-        console.warn(['MUI: `ClassNameGenerator` import from `@mui/material/utils` is outdated and might cause unexpected issues.', '', "You should use `import { unstable_ClassNameGenerator } from '@mui/material/className'` instead", '', 'The detail of the issue: https://github.com/mui/material-ui/issues/30011#issuecomment-1024993401', '', 'The updated documentation: https://mui.com/guides/classname-generator/'].join('\n'));
+        console.warn(['MUI: `ClassNameGenerator` import from `my-mui/material/utils` is outdated and might cause unexpected issues.', '', "You should use `import { unstable_ClassNameGenerator } from 'my-mui/material/className'` instead", '', 'The detail of the issue: https://github.com/mui/material-ui/issues/30011#issuecomment-1024993401', '', 'The updated documentation: https://mui.com/guides/classname-generator/'].join('\n'));
       }
       ClassNameGenerator$1.configure(generator);
     }
@@ -35858,7 +35858,7 @@
     // └─────────────────────────────────────────────────────────────────────┘
     /**
      * The content of the component, normally `Icon`, `SvgIcon`,
-     * or a `@mui/icons-material` SVG icon element.
+     * or a `my-mui/icons-material` SVG icon element.
      */
     children: PropTypes.node,
     /**

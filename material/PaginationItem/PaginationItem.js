@@ -6,8 +6,8 @@ const _excluded = ["className", "color", "component", "components", "disabled", 
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import composeClasses from '@mui/utils/composeClasses';
-import { alpha } from '@mui/system/colorManipulator';
+import composeClasses from 'my-mui/utils/composeClasses';
+import { alpha } from 'my-mui/system/colorManipulator';
 import useThemeProps from '../styles/useThemeProps';
 import paginationItemClasses, { getPaginationItemUtilityClass } from './paginationItemClasses';
 import useTheme from '../styles/useTheme';

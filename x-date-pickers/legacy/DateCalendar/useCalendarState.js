@@ -1,7 +1,7 @@
 import _slicedToArray from "@babel/runtime/helpers/esm/slicedToArray";
 import _extends from "@babel/runtime/helpers/esm/extends";
 import * as React from 'react';
-import useEventCallback from '@mui/utils/useEventCallback';
+import useEventCallback from 'my-mui/utils/useEventCallback';
 import { useIsDateDisabled } from './useIsDateDisabled';
 import { useUtils } from '../internals/hooks/useUtils';
 import { singleItemValueManager } from '../internals/utils/valueManagers';

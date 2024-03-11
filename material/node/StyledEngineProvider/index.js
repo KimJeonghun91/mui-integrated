@@ -9,4 +9,4 @@ Object.defineProperty(exports, "default", {
     return _system.StyledEngineProvider;
   }
 });
-var _system = require("@mui/system");
+var _system = require("my-mui/system");

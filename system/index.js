@@ -1,5 +1,5 @@
 /**
- * @mui/system v5.15.12
+ * my-mui/system v5.15.12
  *
  * @license MIT
  * This source code is licensed under the MIT license found in the
@@ -372,8 +372,8 @@ Object.defineProperty(exports, "useThemeWithoutDefault", {
     return _useThemeWithoutDefault.default;
   }
 });
-var _formatMuiErrorMessage2 = _interopRequireDefault(require("@mui/utils/formatMuiErrorMessage"));
-var _styledEngine = require("@mui/styled-engine");
+var _formatMuiErrorMessage2 = _interopRequireDefault(require("my-mui/utils/formatMuiErrorMessage"));
+var _styledEngine = require("my-mui/styled-engine");
 var _GlobalStyles = _interopRequireDefault(require("./GlobalStyles"));
 var _borders = _interopRequireWildcard(require("./borders"));
 Object.keys(_borders).forEach(function (key) {

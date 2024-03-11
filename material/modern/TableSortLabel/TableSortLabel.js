@@ -3,7 +3,7 @@
 import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose";
 import _extends from "@babel/runtime/helpers/esm/extends";
 const _excluded = ["active", "children", "className", "direction", "hideSortIcon", "IconComponent"];
-import composeClasses from '@mui/utils/composeClasses';
+import composeClasses from 'my-mui/utils/composeClasses';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
 import * as React from 'react';

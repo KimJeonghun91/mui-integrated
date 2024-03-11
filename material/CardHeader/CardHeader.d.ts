@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SxProps } from '@mui/system';
+import { SxProps } from 'my-mui/system';
 import { TypographyProps } from '../Typography';
 import { OverridableComponent, OverrideProps } from '../OverridableComponent';
 import { Theme } from '..';

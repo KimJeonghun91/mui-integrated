@@ -5,6 +5,6 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _generateUtilityClasses = _interopRequireDefault(require("@mui/utils/generateUtilityClasses"));
+var _generateUtilityClasses = _interopRequireDefault(require("my-mui/utils/generateUtilityClasses"));
 const boxClasses = (0, _generateUtilityClasses.default)('MuiBox', ['root']);
 var _default = exports.default = boxClasses;

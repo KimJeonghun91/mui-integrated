@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SlotComponentProps } from '@mui/base/utils';
+import { SlotComponentProps } from 'my-mui/base/utils';
 import { PickersDay, PickersDayProps, ExportedPickersDayProps } from '../PickersDay/PickersDay';
 import { PickerOnChangeFn } from '../internals/hooks/useViews';
 import { SlideDirection, SlideTransitionProps } from './PickersSlideTransition';

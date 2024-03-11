@@ -1,9 +1,9 @@
 'use client';
 
 import _extends from "@babel/runtime/helpers/esm/extends";
-import _formatMuiErrorMessage from "@mui/utils/formatMuiErrorMessage";
+import _formatMuiErrorMessage from "my-mui/utils/formatMuiErrorMessage";
 import * as React from 'react';
-import { unstable_useForkRef as useForkRef } from '@mui/utils';
+import { unstable_useForkRef as useForkRef } from 'my-mui/utils';
 import { useFormControlContext } from '../FormControl';
 import { extractEventHandlers } from '../utils/extractEventHandlers';
 /**

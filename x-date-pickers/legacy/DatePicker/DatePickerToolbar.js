@@ -4,9 +4,9 @@ var _excluded = ["value", "isLandscape", "onChange", "toolbarFormat", "toolbarPl
 import * as React from 'react';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
-import Typography from '@mui/material/Typography';
-import { styled, useThemeProps } from '@mui/material/styles';
-import { unstable_composeClasses as composeClasses } from '@mui/utils';
+import Typography from 'my-mui/material/Typography';
+import { styled, useThemeProps } from 'my-mui/material/styles';
+import { unstable_composeClasses as composeClasses } from 'my-mui/utils';
 import { PickersToolbar } from '../internals/components/PickersToolbar';
 import { useLocaleText, useUtils } from '../internals/hooks/useUtils';
 import { getDatePickerToolbarUtilityClass } from './datePickerToolbarClasses';

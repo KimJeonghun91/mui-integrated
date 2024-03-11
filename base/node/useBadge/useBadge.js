@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.useBadge = useBadge;
-var _utils = require("@mui/utils");
+var _utils = require("my-mui/utils");
 /**
  *
  * Demos:

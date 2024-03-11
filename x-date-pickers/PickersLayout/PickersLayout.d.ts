@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { PickersLayoutProps } from './PickersLayout.types';
 import { DateOrTimeViewWithMeridiem } from '../internals/models';
-declare const PickersLayoutRoot: import("@emotion/styled").StyledComponent<import("@mui/system").MUIStyledCommonProps<import("@mui/material/styles").Theme> & {
+declare const PickersLayoutRoot: import("@emotion/styled").StyledComponent<import("my-mui/system").MUIStyledCommonProps<import("my-mui/material/styles").Theme> & {
     ownerState: {
         isLandscape: boolean;
     };
 }, Pick<React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>, keyof React.ClassAttributes<HTMLDivElement> | keyof React.HTMLAttributes<HTMLDivElement>>, {}>;
 export { PickersLayoutRoot };
-export declare const PickersLayoutContentWrapper: import("@emotion/styled").StyledComponent<import("@mui/system").MUIStyledCommonProps<import("@mui/material/styles").Theme>, Pick<React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>, keyof React.ClassAttributes<HTMLDivElement> | keyof React.HTMLAttributes<HTMLDivElement>>, {}>;
+export declare const PickersLayoutContentWrapper: import("@emotion/styled").StyledComponent<import("my-mui/system").MUIStyledCommonProps<import("my-mui/material/styles").Theme>, Pick<React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>, keyof React.ClassAttributes<HTMLDivElement> | keyof React.HTMLAttributes<HTMLDivElement>>, {}>;
 /**
  * Demos:
  *

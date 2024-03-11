@@ -8,7 +8,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.Dropdown = Dropdown;
 var React = _interopRequireWildcard(require("react"));
 var _propTypes = _interopRequireDefault(require("prop-types"));
-var _utils = require("@mui/utils");
+var _utils = require("my-mui/utils");
 var _DropdownContext = require("../useDropdown/DropdownContext");
 var _useDropdown = require("../useDropdown/useDropdown");
 var _jsxRuntime = require("react/jsx-runtime");

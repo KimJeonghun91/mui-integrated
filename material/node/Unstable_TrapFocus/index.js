@@ -9,4 +9,4 @@ Object.defineProperty(exports, "default", {
     return _FocusTrap.FocusTrap;
   }
 });
-var _FocusTrap = require("@mui/base/FocusTrap");
+var _FocusTrap = require("my-mui/base/FocusTrap");

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { ClassValue } from 'clsx';
-import { Simplify } from '@mui/types';
+import { Simplify } from 'my-mui/types';
 import { EventHandlers } from './types';
 export type WithCommonProps<OtherProps> = OtherProps & {
     className?: string;

@@ -4,8 +4,8 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 // @ts-ignore
 import _extends from "@babel/runtime/helpers/esm/extends";
-import { unstable_createCssVarsProvider as createCssVarsProvider } from '@mui/system';
-import styleFunctionSx from '@mui/system/styleFunctionSx';
+import { unstable_createCssVarsProvider as createCssVarsProvider } from 'my-mui/system';
+import styleFunctionSx from 'my-mui/system/styleFunctionSx';
 import experimental_extendTheme from './experimental_extendTheme';
 import createTypography from './createTypography';
 import excludeVariablesFromRoot from './excludeVariablesFromRoot';

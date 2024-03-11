@@ -1,5 +1,5 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
-import _formatMuiErrorMessage from "@mui/utils/formatMuiErrorMessage";
+import _formatMuiErrorMessage from "my-mui/utils/formatMuiErrorMessage";
 import { isUnitless, convertLength, responsiveProperty, alignProperty, fontGrid } from './cssUtils';
 export default function responsiveFontSizes(themeInput, options = {}) {
   const {

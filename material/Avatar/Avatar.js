@@ -6,7 +6,7 @@ const _excluded = ["alt", "children", "className", "component", "slots", "slotPr
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import composeClasses from '@mui/utils/composeClasses';
+import composeClasses from 'my-mui/utils/composeClasses';
 import { styled, createUseThemeProps } from '../zero-styled';
 import Person from '../internal/svg-icons/Person';
 import { getAvatarUtilityClass } from './avatarClasses';

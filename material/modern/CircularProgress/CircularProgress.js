@@ -6,9 +6,9 @@ const _excluded = ["className", "color", "disableShrink", "size", "style", "thic
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import chainPropTypes from '@mui/utils/chainPropTypes';
-import composeClasses from '@mui/utils/composeClasses';
-import { keyframes, css } from '@mui/system';
+import chainPropTypes from 'my-mui/utils/chainPropTypes';
+import composeClasses from 'my-mui/utils/composeClasses';
+import { keyframes, css } from 'my-mui/system';
 import capitalize from '../utils/capitalize';
 import useThemeProps from '../styles/useThemeProps';
 import styled from '../styles/styled';

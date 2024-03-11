@@ -1,2 +1,2 @@
-import unsupportedProp from '@mui/utils/unsupportedProp';
+import unsupportedProp from 'my-mui/utils/unsupportedProp';
 export default unsupportedProp;

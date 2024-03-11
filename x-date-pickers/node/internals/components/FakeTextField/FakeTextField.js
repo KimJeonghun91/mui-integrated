@@ -9,7 +9,7 @@ var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends")
 var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutPropertiesLoose"));
 var _react = _interopRequireWildcard(require("react"));
 var React = _react;
-var _Box = _interopRequireDefault(require("@mui/material/Box"));
+var _Box = _interopRequireDefault(require("my-mui/material/Box"));
 var _jsxRuntime = require("react/jsx-runtime");
 const _excluded = ["elements", "valueStr", "onValueStrChange", "id", "error", "InputProps", "inputProps", "autoFocus", "disabled", "valueType", "ownerState"];
 function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }

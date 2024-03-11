@@ -4,7 +4,7 @@ import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutProperties";
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { elementAcceptingRef, HTMLElementType } from '@mui/utils';
+import { elementAcceptingRef, HTMLElementType } from 'my-mui/utils';
 import { useSlotProps } from '../utils';
 import { useClassNamesOverride } from '../utils/ClassNameConfigurator';
 import { unstable_composeClasses as composeClasses } from '../composeClasses';

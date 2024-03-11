@@ -101,7 +101,7 @@ export interface PickersComponentsPropsList {
   MuiStaticDateTimePicker: StaticDateTimePickerProps<unknown>;
 }
 
-declare module '@mui/material/styles' {
+declare module 'my-mui/material/styles' {
   interface ComponentsPropsList extends PickersComponentsPropsList {}
 }
 

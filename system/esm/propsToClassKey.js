@@ -1,6 +1,6 @@
 import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose";
 const _excluded = ["variant"];
-import capitalize from '@mui/utils/capitalize';
+import capitalize from 'my-mui/utils/capitalize';
 function isEmpty(string) {
   return string.length === 0;
 }

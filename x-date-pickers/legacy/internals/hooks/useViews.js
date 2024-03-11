@@ -1,7 +1,7 @@
 import _slicedToArray from "@babel/runtime/helpers/esm/slicedToArray";
 import * as React from 'react';
-import useEventCallback from '@mui/utils/useEventCallback';
-import { unstable_useControlled as useControlled } from '@mui/utils';
+import useEventCallback from 'my-mui/utils/useEventCallback';
+import { unstable_useControlled as useControlled } from 'my-mui/utils';
 var warnedOnceNotValidView = false;
 export function useViews(_ref) {
   var _views, _views2;

@@ -6,7 +6,7 @@ var _span;
 const _excluded = ["areOptionsEqual", "autoComplete", "autoFocus", "children", "defaultValue", "defaultListboxOpen", "disabled", "getSerializedValue", "listboxId", "listboxOpen", "multiple", "name", "required", "onChange", "onListboxOpenChange", "getOptionAsString", "renderValue", "placeholder", "slotProps", "slots", "value"];
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { unstable_useForkRef as useForkRef } from '@mui/utils';
+import { unstable_useForkRef as useForkRef } from 'my-mui/utils';
 import { useSelect } from '../useSelect';
 import { useSlotProps } from '../utils';
 import { Popup } from '../Unstable_Popup/Popup';

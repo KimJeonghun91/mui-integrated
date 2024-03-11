@@ -18,7 +18,7 @@ export type MUIStyledComponent<
 > = StyledComponent<ComponentProps, SpecificComponentProps, JSXProps>;
 
 /**
- * For internal usage in `@mui/system` package
+ * For internal usage in `my-mui/system` package
  */
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export function internal_processStyles(

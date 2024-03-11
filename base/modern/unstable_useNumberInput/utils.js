@@ -1,4 +1,4 @@
-import { clamp } from '@mui/utils';
+import { clamp } from 'my-mui/utils';
 export function clampStepwise(val, min = Number.MIN_SAFE_INTEGER, max = Number.MAX_SAFE_INTEGER, stepProp = NaN) {
   if (Number.isNaN(stepProp)) {
     return clamp(val, min, max);

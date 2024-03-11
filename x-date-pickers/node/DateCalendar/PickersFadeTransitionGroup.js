@@ -8,9 +8,9 @@ exports.PickersFadeTransitionGroup = PickersFadeTransitionGroup;
 var React = _interopRequireWildcard(require("react"));
 var _clsx = _interopRequireDefault(require("clsx"));
 var _reactTransitionGroup = require("react-transition-group");
-var _Fade = _interopRequireDefault(require("@mui/material/Fade"));
-var _styles = require("@mui/material/styles");
-var _composeClasses = _interopRequireDefault(require("@mui/utils/composeClasses"));
+var _Fade = _interopRequireDefault(require("my-mui/material/Fade"));
+var _styles = require("my-mui/material/styles");
+var _composeClasses = _interopRequireDefault(require("my-mui/utils/composeClasses"));
 var _pickersFadeTransitionGroupClasses = require("./pickersFadeTransitionGroupClasses");
 var _jsxRuntime = require("react/jsx-runtime");
 function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }

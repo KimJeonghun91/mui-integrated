@@ -4,9 +4,9 @@ const _excluded = ["className", "value", "defaultValue", "referenceDate", "disab
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import { useTheme } from '@mui/system';
-import { styled, useThemeProps } from '@mui/material/styles';
-import { unstable_useControlled as useControlled, unstable_composeClasses as composeClasses, unstable_useEventCallback as useEventCallback } from '@mui/utils';
+import { useTheme } from 'my-mui/system';
+import { styled, useThemeProps } from 'my-mui/material/styles';
+import { unstable_useControlled as useControlled, unstable_composeClasses as composeClasses, unstable_useEventCallback as useEventCallback } from 'my-mui/utils';
 import { PickersMonth } from './PickersMonth';
 import { useUtils, useNow, useDefaultDates } from '../internals/hooks/useUtils';
 import { getMonthCalendarUtilityClass } from './monthCalendarClasses';

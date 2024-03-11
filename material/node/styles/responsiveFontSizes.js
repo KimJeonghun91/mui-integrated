@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = responsiveFontSizes;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
-var _formatMuiErrorMessage2 = _interopRequireDefault(require("@mui/utils/formatMuiErrorMessage"));
+var _formatMuiErrorMessage2 = _interopRequireDefault(require("my-mui/utils/formatMuiErrorMessage"));
 var _cssUtils = require("./cssUtils");
 function responsiveFontSizes(themeInput, options = {}) {
   const {

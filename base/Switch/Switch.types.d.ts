@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import { Simplify } from '@mui/types';
+import { Simplify } from 'my-mui/types';
 import { PolymorphicProps, SlotComponentProps } from '../utils';
 import { UseSwitchInputSlotProps, UseSwitchParameters } from '../useSwitch';
 export interface SwitchRootSlotPropsOverrides {

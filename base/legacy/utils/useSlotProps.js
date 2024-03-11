@@ -2,7 +2,7 @@
 
 import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutProperties";
-import { unstable_useForkRef as useForkRef } from '@mui/utils';
+import { unstable_useForkRef as useForkRef } from 'my-mui/utils';
 import { appendOwnerState } from './appendOwnerState';
 import { mergeSlotProps } from './mergeSlotProps';
 import { resolveComponentProps } from './resolveComponentProps';

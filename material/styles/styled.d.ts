@@ -1,4 +1,4 @@
-import { CreateMUIStyled } from '@mui/system';
+import { CreateMUIStyled } from 'my-mui/system';
 import { Theme } from './createTheme';
 
 export function rootShouldForwardProp(prop: string): boolean;

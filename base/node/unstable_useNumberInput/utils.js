@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.clampStepwise = clampStepwise;
 exports.isNumber = isNumber;
-var _utils = require("@mui/utils");
+var _utils = require("my-mui/utils");
 function clampStepwise(val, min = Number.MIN_SAFE_INTEGER, max = Number.MAX_SAFE_INTEGER, stepProp = NaN) {
   if (Number.isNaN(stepProp)) {
     return (0, _utils.clamp)(val, min, max);

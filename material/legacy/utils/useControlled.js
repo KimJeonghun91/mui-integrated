@@ -1,4 +1,4 @@
 'use client';
 
-import useControlled from '@mui/utils/useControlled';
+import useControlled from 'my-mui/utils/useControlled';
 export default useControlled;

@@ -3,8 +3,8 @@
 import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose";
 import _extends from "@babel/runtime/helpers/esm/extends";
 const _excluded = ["children", "className", "cols", "component", "rows", "style"];
-import composeClasses from '@mui/utils/composeClasses';
-import integerPropType from '@mui/utils/integerPropType';
+import composeClasses from 'my-mui/utils/composeClasses';
+import integerPropType from 'my-mui/utils/integerPropType';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
 import * as React from 'react';

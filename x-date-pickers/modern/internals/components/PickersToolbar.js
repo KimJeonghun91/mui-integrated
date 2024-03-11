@@ -1,9 +1,9 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
 import * as React from 'react';
 import clsx from 'clsx';
-import Typography from '@mui/material/Typography';
-import { styled, useThemeProps } from '@mui/material/styles';
-import { unstable_composeClasses as composeClasses } from '@mui/utils';
+import Typography from 'my-mui/material/Typography';
+import { styled, useThemeProps } from 'my-mui/material/styles';
+import { unstable_composeClasses as composeClasses } from 'my-mui/utils';
 import { getPickersToolbarUtilityClass } from './pickersToolbarClasses';
 import { jsx as _jsx } from "react/jsx-runtime";
 import { jsxs as _jsxs } from "react/jsx-runtime";

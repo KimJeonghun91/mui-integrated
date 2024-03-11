@@ -2,7 +2,7 @@
 
 import _extends from "@babel/runtime/helpers/esm/extends";
 import * as React from 'react';
-import { unstable_useForkRef as useForkRef, unstable_useId as useId, unstable_useEnhancedEffect as useEnhancedEffect, visuallyHidden as visuallyHiddenStyle } from '@mui/utils';
+import { unstable_useForkRef as useForkRef, unstable_useId as useId, unstable_useEnhancedEffect as useEnhancedEffect, visuallyHidden as visuallyHiddenStyle } from 'my-mui/utils';
 import { useButton } from '../useButton';
 import { SelectActionTypes } from './useSelect.types';
 import { ListActionTypes, useList } from '../useList';

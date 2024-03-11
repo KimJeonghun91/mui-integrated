@@ -282,10 +282,10 @@ Object.defineProperty(exports, "withTheme", {
     return _withTheme.default;
   }
 });
-var _formatMuiErrorMessage2 = _interopRequireDefault(require("@mui/utils/formatMuiErrorMessage"));
+var _formatMuiErrorMessage2 = _interopRequireDefault(require("my-mui/utils/formatMuiErrorMessage"));
 var _identifier = _interopRequireDefault(require("./identifier"));
 var _adaptV4Theme = _interopRequireDefault(require("./adaptV4Theme"));
-var _system = require("@mui/system");
+var _system = require("my-mui/system");
 var _createTheme = _interopRequireWildcard(require("./createTheme"));
 var _createMuiStrictModeTheme = _interopRequireDefault(require("./createMuiStrictModeTheme"));
 var _createStyles = _interopRequireDefault(require("./createStyles"));
@@ -325,7 +325,7 @@ function experimental_sx() {
   throw new Error(process.env.NODE_ENV !== "production" ? `MUI: The \`experimental_sx\` has been moved to \`theme.unstable_sx\`.For more details, see https://github.com/mui/material-ui/pull/35150.` : (0, _formatMuiErrorMessage2.default)(20));
 }
 
-// The legacy utilities from @mui/styles
+// The legacy utilities from my-mui/styles
 // These are just empty functions that throws when invoked
 
 // Private methods for creating parts of the theme

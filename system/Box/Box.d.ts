@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { OverridableComponent, OverrideProps } from '@mui/types';
+import { OverridableComponent, OverrideProps } from 'my-mui/types';
 import { Theme as SystemTheme } from '../createTheme';
 import {
   SxProps,

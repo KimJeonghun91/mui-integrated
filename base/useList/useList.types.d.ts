@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Simplify } from '@mui/types';
+import { Simplify } from 'my-mui/types';
 import { ListAction } from './listActions.types';
 import { ActionWithContext, ControllableReducerAction, StateChangeCallback } from '../utils/useControllableReducer.types';
 import type { ListContextValue } from './ListContext';

@@ -4,7 +4,7 @@ import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutProperties";
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { ThemeProvider as SystemThemeProvider } from '@mui/system';
+import { ThemeProvider as SystemThemeProvider } from 'my-mui/system';
 import THEME_ID from './identifier';
 import { jsx as _jsx } from "react/jsx-runtime";
 export default function ThemeProvider(_ref) {

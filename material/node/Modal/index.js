@@ -27,7 +27,7 @@ Object.defineProperty(exports, "modalClasses", {
     return _modalClasses.default;
   }
 });
-var _unstable_useModal = require("@mui/base/unstable_useModal");
+var _unstable_useModal = require("my-mui/base/unstable_useModal");
 var _Modal = _interopRequireDefault(require("./Modal"));
 var _modalClasses = _interopRequireWildcard(require("./modalClasses"));
 Object.keys(_modalClasses).forEach(function (key) {

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Interpolation, MUIStyledComponent as StyledComponent } from '@mui/styled-engine';
-import { OverridableComponent } from '@mui/types';
+import { Interpolation, MUIStyledComponent as StyledComponent } from 'my-mui/styled-engine';
+import { OverridableComponent } from 'my-mui/types';
 import { ContainerProps, ContainerTypeMap } from './ContainerProps';
 import { Theme as DefaultTheme } from '../createTheme';
 interface StyleFnProps<Theme> extends ContainerProps {

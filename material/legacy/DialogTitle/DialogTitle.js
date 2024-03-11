@@ -5,7 +5,7 @@ import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutPr
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import composeClasses from '@mui/utils/composeClasses';
+import composeClasses from 'my-mui/utils/composeClasses';
 import Typography from '../Typography';
 import styled from '../styles/styled';
 import useThemeProps from '../styles/useThemeProps';

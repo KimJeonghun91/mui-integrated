@@ -1,6 +1,6 @@
 'use client';
 
-import { usePreviousProps } from '@mui/utils';
+import { usePreviousProps } from 'my-mui/utils';
 /**
  *
  * Demos:

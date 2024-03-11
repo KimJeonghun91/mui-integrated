@@ -9,4 +9,4 @@ Object.defineProperty(exports, "default", {
     return _utils.unstable_generateUtilityClasses;
   }
 });
-var _utils = require("@mui/utils");
+var _utils = require("my-mui/utils");

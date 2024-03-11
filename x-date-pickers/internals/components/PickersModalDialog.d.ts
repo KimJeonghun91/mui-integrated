@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { DialogProps as MuiDialogProps } from '@mui/material/Dialog';
-import { PaperProps as MuiPaperProps } from '@mui/material/Paper/Paper';
-import { TransitionProps as MuiTransitionProps } from '@mui/material/transitions/transition';
+import { DialogProps as MuiDialogProps } from 'my-mui/material/Dialog';
+import { PaperProps as MuiPaperProps } from 'my-mui/material/Paper/Paper';
+import { TransitionProps as MuiTransitionProps } from 'my-mui/material/transitions/transition';
 import { UncapitalizeObjectKeys } from '../utils/slots-migration';
 import { UsePickerValueActions } from '../hooks/usePicker/usePickerValue.types';
 export interface PickersModalDialogSlotsComponent {
@@ -12,12 +12,12 @@ export interface PickersModalDialogSlotsComponent {
     Dialog?: React.ElementType<MuiDialogProps>;
     /**
      * Custom component for the paper rendered inside the mobile picker's Dialog.
-     * @default Paper from '@mui/material'.
+     * @default Paper from 'my-mui/material'.
      */
     MobilePaper?: React.JSXElementConstructor<MuiPaperProps>;
     /**
      * Custom component for the mobile dialog [Transition](https://mui.com/material-ui/transitions/).
-     * @default Fade from '@mui/material'.
+     * @default Fade from 'my-mui/material'.
      */
     MobileTransition?: React.JSXElementConstructor<MuiTransitionProps>;
 }

@@ -6,8 +6,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.getMultiSectionDigitalClockUtilityClass = getMultiSectionDigitalClockUtilityClass;
 exports.multiSectionDigitalClockClasses = void 0;
-var _generateUtilityClass = _interopRequireDefault(require("@mui/utils/generateUtilityClass"));
-var _generateUtilityClasses = _interopRequireDefault(require("@mui/utils/generateUtilityClasses"));
+var _generateUtilityClass = _interopRequireDefault(require("my-mui/utils/generateUtilityClass"));
+var _generateUtilityClasses = _interopRequireDefault(require("my-mui/utils/generateUtilityClasses"));
 function getMultiSectionDigitalClockUtilityClass(slot) {
   return (0, _generateUtilityClass.default)('MuiMultiSectionDigitalClock', slot);
 }

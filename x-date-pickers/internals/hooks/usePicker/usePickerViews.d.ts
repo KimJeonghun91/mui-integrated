@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { SxProps } from '@mui/system';
-import { Theme } from '@mui/material/styles';
+import { SxProps } from 'my-mui/system';
+import { Theme } from 'my-mui/material/styles';
 import { UseViewsOptions } from '../useViews';
 import type { UsePickerValueViewsResponse } from './usePickerValue.types';
 import { DateOrTimeViewWithMeridiem } from '../../models';

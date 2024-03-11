@@ -4,9 +4,9 @@ const _excluded = ["className", "component", "disableGutters", "fixed", "maxWidt
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import generateUtilityClass from '@mui/utils/generateUtilityClass';
-import composeClasses from '@mui/utils/composeClasses';
-import capitalize from '@mui/utils/capitalize';
+import generateUtilityClass from 'my-mui/utils/generateUtilityClass';
+import composeClasses from 'my-mui/utils/composeClasses';
+import capitalize from 'my-mui/utils/capitalize';
 import useThemePropsSystem from '../useThemeProps';
 import systemStyled from '../styled';
 import createTheme from '../createTheme';

@@ -1,11 +1,11 @@
 import _defineProperty from "@babel/runtime/helpers/esm/defineProperty";
 import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutProperties";
-import _formatMuiErrorMessage from "@mui/utils/formatMuiErrorMessage";
-import deepmerge from '@mui/utils/deepmerge';
-import styleFunctionSx, { unstable_defaultSxConfig as defaultSxConfig } from '@mui/system/styleFunctionSx';
-import systemCreateTheme from '@mui/system/createTheme';
-import generateUtilityClass from '@mui/utils/generateUtilityClass';
+import _formatMuiErrorMessage from "my-mui/utils/formatMuiErrorMessage";
+import deepmerge from 'my-mui/utils/deepmerge';
+import styleFunctionSx, { unstable_defaultSxConfig as defaultSxConfig } from 'my-mui/system/styleFunctionSx';
+import systemCreateTheme from 'my-mui/system/createTheme';
+import generateUtilityClass from 'my-mui/utils/generateUtilityClass';
 import createMixins from './createMixins';
 import createPalette from './createPalette';
 import createTypography from './createTypography';
@@ -48,7 +48,7 @@ function createTheme() {
     return deepmerge(acc, argument);
   }, muiTheme);
   if (process.env.NODE_ENV !== 'production') {
-    // TODO v6: Refactor to use globalStateClassesMapping from @mui/utils once `readOnly` state class is used in Rating component.
+    // TODO v6: Refactor to use globalStateClassesMapping from my-mui/utils once `readOnly` state class is used in Rating component.
     var stateClasses = ['active', 'checked', 'completed', 'disabled', 'error', 'expanded', 'focused', 'focusVisible', 'required', 'selected'];
     var traverse = function traverse(node, component) {
       var key;
@@ -89,7 +89,7 @@ export function createMuiTheme() {
   if (process.env.NODE_ENV !== 'production') {
     if (!warnedOnce) {
       warnedOnce = true;
-      console.error(['MUI: the createMuiTheme function was renamed to createTheme.', '', "You should use `import { createTheme } from '@mui/material/styles'`"].join('\n'));
+      console.error(['MUI: the createMuiTheme function was renamed to createTheme.', '', "You should use `import { createTheme } from 'my-mui/material/styles'`"].join('\n'));
     }
   }
   return createTheme.apply(void 0, arguments);

@@ -8,8 +8,8 @@ exports.PickersLayoutRoot = exports.PickersLayoutContentWrapper = exports.Picker
 var React = _interopRequireWildcard(require("react"));
 var _propTypes = _interopRequireDefault(require("prop-types"));
 var _clsx = _interopRequireDefault(require("clsx"));
-var _styles = require("@mui/material/styles");
-var _utils = require("@mui/utils");
+var _styles = require("my-mui/material/styles");
+var _utils = require("my-mui/utils");
 var _pickersLayoutClasses = require("./pickersLayoutClasses");
 var _usePickerLayout = _interopRequireDefault(require("./usePickerLayout"));
 var _jsxRuntime = require("react/jsx-runtime");

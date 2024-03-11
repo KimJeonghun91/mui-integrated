@@ -1,7 +1,7 @@
 'use client';
 
 import PropTypes from 'prop-types';
-import { createContainer } from '@mui/system';
+import { createContainer } from 'my-mui/system';
 import capitalize from '../utils/capitalize';
 import styled from '../styles/styled';
 import _useThemeProps from '../styles/useThemeProps';

@@ -1,5 +1,5 @@
 import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutProperties";
-import capitalize from '@mui/utils/capitalize';
+import capitalize from 'my-mui/utils/capitalize';
 function isEmpty(string) {
   return string.length === 0;
 }

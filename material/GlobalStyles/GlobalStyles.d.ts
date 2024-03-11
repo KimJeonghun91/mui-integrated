@@ -1,4 +1,4 @@
-import { GlobalStylesProps as StyledGlobalStylesProps } from '@mui/system';
+import { GlobalStylesProps as StyledGlobalStylesProps } from 'my-mui/system';
 import { Theme } from '../styles';
 
 export interface GlobalStylesProps {

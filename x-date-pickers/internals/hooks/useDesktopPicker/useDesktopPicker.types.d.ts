@@ -1,8 +1,8 @@
 import * as React from 'react';
-import IconButton, { IconButtonProps } from '@mui/material/IconButton';
-import { InputAdornmentProps } from '@mui/material/InputAdornment';
-import TextField, { TextFieldProps } from '@mui/material/TextField';
-import { SlotComponentProps } from '@mui/base/utils';
+import IconButton, { IconButtonProps } from 'my-mui/material/IconButton';
+import { InputAdornmentProps } from 'my-mui/material/InputAdornment';
+import TextField, { TextFieldProps } from 'my-mui/material/TextField';
+import { SlotComponentProps } from 'my-mui/base/utils';
 import { BaseNonStaticPickerProps, BasePickerProps, BaseNonRangeNonStaticPickerProps } from '../../models/props/basePickerProps';
 import { PickersPopperSlotsComponent, PickersPopperSlotsComponentsProps } from '../../components/PickersPopper';
 import { UsePickerParams, UsePickerProps } from '../usePicker';
@@ -20,8 +20,8 @@ export interface UseDesktopPickerSlotsComponent<TDate, TView extends DateOrTimeV
     Field: React.ElementType<BaseSingleInputFieldProps<TDate | null, TDate, FieldSection, any>>;
     /**
      * Form control with an input to render the value inside the default field.
-     * Receives the same props as `@mui/material/TextField`.
-     * @default TextField from '@mui/material'
+     * Receives the same props as `my-mui/material/TextField`.
+     * @default TextField from 'my-mui/material'
      */
     TextField?: React.ElementType<TextFieldProps>;
     /**

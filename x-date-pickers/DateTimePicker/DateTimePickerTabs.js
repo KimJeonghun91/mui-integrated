@@ -1,10 +1,10 @@
 import * as React from 'react';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
-import Tab from '@mui/material/Tab';
-import Tabs, { tabsClasses } from '@mui/material/Tabs';
-import { styled, useThemeProps } from '@mui/material/styles';
-import composeClasses from '@mui/utils/composeClasses';
+import Tab from 'my-mui/material/Tab';
+import Tabs, { tabsClasses } from 'my-mui/material/Tabs';
+import { styled, useThemeProps } from 'my-mui/material/styles';
+import composeClasses from 'my-mui/utils/composeClasses';
 import { TimeIcon, DateRangeIcon } from '../icons';
 import { useLocaleText } from '../internals/hooks/useUtils';
 import { getDateTimePickerTabsUtilityClass } from './dateTimePickerTabsClasses';

@@ -2,7 +2,7 @@ import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutProperties";
 var _excluded = ["elements", "valueStr", "onValueStrChange", "id", "error", "InputProps", "inputProps", "autoFocus", "disabled", "valueType", "ownerState"];
 import * as React from 'react';
-import Box from '@mui/material/Box';
+import Box from 'my-mui/material/Box';
 import { jsx as _jsx } from "react/jsx-runtime";
 import { createElement as _createElement } from "react";
 import { jsxs as _jsxs } from "react/jsx-runtime";

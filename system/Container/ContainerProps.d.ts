@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { OverrideProps } from '@mui/types';
+import { OverrideProps } from 'my-mui/types';
 import { SxProps } from '../styleFunctionSx';
 import { Theme, Breakpoint } from '../createTheme';
 import { ContainerClasses } from './containerClasses';

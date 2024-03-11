@@ -1,7 +1,7 @@
 import _classCallCheck from "@babel/runtime/helpers/esm/classCallCheck";
 import _createClass from "@babel/runtime/helpers/esm/createClass";
 import _toConsumableArray from "@babel/runtime/helpers/esm/toConsumableArray";
-import { unstable_ownerWindow as ownerWindow, unstable_ownerDocument as ownerDocument, unstable_getScrollbarSize as getScrollbarSize } from '@mui/utils';
+import { unstable_ownerWindow as ownerWindow, unstable_ownerDocument as ownerDocument, unstable_getScrollbarSize as getScrollbarSize } from 'my-mui/utils';
 // Is a vertical scrollbar displayed?
 function isOverflowing(container) {
   var doc = ownerDocument(container);

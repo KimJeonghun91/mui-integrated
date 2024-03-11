@@ -1,2 +1,2 @@
-import requirePropFactory from '@mui/utils/requirePropFactory';
+import requirePropFactory from 'my-mui/utils/requirePropFactory';
 export default requirePropFactory;

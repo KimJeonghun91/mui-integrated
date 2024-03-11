@@ -8,7 +8,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.useMenuButton = useMenuButton;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 var React = _interopRequireWildcard(require("react"));
-var _utils = require("@mui/utils");
+var _utils = require("my-mui/utils");
 var _DropdownContext = require("../useDropdown/DropdownContext");
 var _useDropdown = require("../useDropdown/useDropdown.types");
 var _useButton = require("../useButton/useButton");

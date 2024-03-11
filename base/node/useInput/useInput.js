@@ -7,9 +7,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.useInput = useInput;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
-var _formatMuiErrorMessage2 = _interopRequireDefault(require("@mui/utils/formatMuiErrorMessage"));
+var _formatMuiErrorMessage2 = _interopRequireDefault(require("my-mui/utils/formatMuiErrorMessage"));
 var React = _interopRequireWildcard(require("react"));
-var _utils = require("@mui/utils");
+var _utils = require("my-mui/utils");
 var _FormControl = require("../FormControl");
 var _extractEventHandlers = require("../utils/extractEventHandlers");
 function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }

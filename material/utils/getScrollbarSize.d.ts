@@ -1,2 +1,2 @@
-import getScrollbarSize from '@mui/utils/getScrollbarSize';
+import getScrollbarSize from 'my-mui/utils/getScrollbarSize';
 export default getScrollbarSize;

@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 exports.getPath = getPath;
 exports.getStyleValue = getStyleValue;
-var _capitalize = _interopRequireDefault(require("@mui/utils/capitalize"));
+var _capitalize = _interopRequireDefault(require("my-mui/utils/capitalize"));
 var _responsivePropType = _interopRequireDefault(require("./responsivePropType"));
 var _breakpoints = require("./breakpoints");
 function getPath(obj, path, checkVars = true) {

@@ -65,7 +65,7 @@ export {
   ColorObject,
   StyledEngineProvider,
   SxProps,
-} from '@mui/system';
+} from 'my-mui/system';
 // TODO: Remove this function in v6.
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export function experimental_sx(): any;
@@ -74,7 +74,7 @@ export { default as useThemeProps } from './useThemeProps';
 export * from './useThemeProps';
 export { default as styled } from './styled';
 /**
- * @deprecated will be removed in v5.beta, please use styled from @mui/material/styles instead
+ * @deprecated will be removed in v5.beta, please use styled from my-mui/material/styles instead
  */
 export { default as experimentalStyled } from './styled';
 export { default as ThemeProvider } from './ThemeProvider';

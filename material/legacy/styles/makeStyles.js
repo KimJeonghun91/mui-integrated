@@ -1,4 +1,4 @@
-import _formatMuiErrorMessage from "@mui/utils/formatMuiErrorMessage";
+import _formatMuiErrorMessage from "my-mui/utils/formatMuiErrorMessage";
 export default function makeStyles() {
-  throw new Error(process.env.NODE_ENV !== "production" ? "MUI: makeStyles is no longer exported from @mui/material/styles.\nYou have to import it from @mui/styles.\nSee https://mui.com/r/migration-v4/#mui-material-styles for more details." : _formatMuiErrorMessage(14));
+  throw new Error(process.env.NODE_ENV !== "production" ? "MUI: makeStyles is no longer exported from my-mui/material/styles.\nYou have to import it from my-mui/styles.\nSee https://mui.com/r/migration-v4/#mui-material-styles for more details." : _formatMuiErrorMessage(14));
 }

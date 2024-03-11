@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { OverridableStringUnion } from '@mui/types';
-import { SxProps } from '@mui/system';
-import { OverridableComponent, OverrideProps } from '@mui/material/OverridableComponent';
+import { OverridableStringUnion } from 'my-mui/types';
+import { SxProps } from 'my-mui/system';
+import { OverridableComponent, OverrideProps } from 'my-mui/material/OverridableComponent';
 import { Theme } from '../styles';
 import { UsePaginationItem } from '../usePagination/usePagination';
 import { PaginationItemClasses } from './paginationItemClasses';

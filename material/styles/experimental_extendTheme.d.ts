@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { OverridableStringUnion } from '@mui/types';
-import { SxConfig, SxProps, CSSObject, ApplyStyles } from '@mui/system';
+import { OverridableStringUnion } from 'my-mui/types';
+import { SxConfig, SxProps, CSSObject, ApplyStyles } from 'my-mui/system';
 import { ThemeOptions, Theme } from './createTheme';
 import { Palette, PaletteOptions } from './createPalette';
 import { Shadows } from './shadows';
@@ -16,7 +16,7 @@ export type DefaultColorScheme = 'light' | 'dark';
  * The application can add more color-scheme by extending this interface via module augmentation
  *
  * Ex.
- * declare module @mui/material/styles {
+ * declare module my-mui/material/styles {
  *   interface ColorSchemeOverrides {
  *     foo: true;
  *   }

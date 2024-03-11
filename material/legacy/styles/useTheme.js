@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { useTheme as useThemeSystem } from '@mui/system';
+import { useTheme as useThemeSystem } from 'my-mui/system';
 import defaultTheme from './defaultTheme';
 import THEME_ID from './identifier';
 export default function useTheme() {

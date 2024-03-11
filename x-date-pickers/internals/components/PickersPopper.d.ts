@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { SlotComponentProps } from '@mui/base/utils';
-import MuiPaper, { PaperProps as MuiPaperProps } from '@mui/material/Paper';
-import MuiPopper, { PopperProps as MuiPopperProps, PopperPlacementType } from '@mui/material/Popper';
-import { TrapFocusProps as MuiTrapFocusProps } from '@mui/material/Unstable_TrapFocus';
-import { TransitionProps as MuiTransitionProps } from '@mui/material/transitions';
+import { SlotComponentProps } from 'my-mui/base/utils';
+import MuiPaper, { PaperProps as MuiPaperProps } from 'my-mui/material/Paper';
+import MuiPopper, { PopperProps as MuiPopperProps, PopperPlacementType } from 'my-mui/material/Popper';
+import { TrapFocusProps as MuiTrapFocusProps } from 'my-mui/material/Unstable_TrapFocus';
+import { TransitionProps as MuiTransitionProps } from 'my-mui/material/transitions';
 import { PickersPopperClasses } from './pickersPopperClasses';
 import { UncapitalizeObjectKeys } from '../utils/slots-migration';
 import { UsePickerValueActions } from '../hooks/usePicker/usePickerValue.types';
@@ -18,17 +18,17 @@ export interface PickersPopperSlotsComponent {
     DesktopPaper?: React.JSXElementConstructor<MuiPaperProps>;
     /**
      * Custom component for the desktop popper [Transition](https://mui.com/material-ui/transitions/).
-     * @default Grow or Fade from '@mui/material' when `reduceAnimations` is `true`.
+     * @default Grow or Fade from 'my-mui/material' when `reduceAnimations` is `true`.
      */
     DesktopTransition?: React.JSXElementConstructor<MuiTransitionProps>;
     /**
      * Custom component for trapping the focus inside the views on desktop.
-     * @default FocusTrap from '@mui/base'.
+     * @default FocusTrap from 'my-mui/base'.
      */
     DesktopTrapFocus?: React.JSXElementConstructor<MuiTrapFocusProps>;
     /**
      * Custom component for the popper inside which the views are rendered on desktop.
-     * @default Popper from '@mui/material'.
+     * @default Popper from 'my-mui/material'.
      */
     Popper?: React.ElementType<MuiPopperProps>;
 }

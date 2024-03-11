@@ -1,5 +1,5 @@
-import { SxProps } from '@mui/system';
-import { Theme } from '@mui/material/styles';
+import { SxProps } from 'my-mui/system';
+import { Theme } from 'my-mui/material/styles';
 import { MonthCalendarClasses } from './monthCalendarClasses';
 import { BaseDateValidationProps, MonthValidationProps } from '../internals/models/validation';
 import { TimezoneProps } from '../models';

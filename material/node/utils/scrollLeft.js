@@ -15,4 +15,4 @@ Object.defineProperty(exports, "getNormalizedScrollLeft", {
     return _utils.unstable_getNormalizedScrollLeft;
   }
 });
-var _utils = require("@mui/utils");
+var _utils = require("my-mui/utils");

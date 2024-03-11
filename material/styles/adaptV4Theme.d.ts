@@ -1,4 +1,4 @@
-import { BreakpointsOptions, ShapeOptions, SpacingOptions } from '@mui/system';
+import { BreakpointsOptions, ShapeOptions, SpacingOptions } from 'my-mui/system';
 import { MixinsOptions } from './createMixins';
 import { Palette, PaletteOptions } from './createPalette';
 import { TypographyOptions } from './createTypography';

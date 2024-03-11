@@ -1,9 +1,9 @@
 'use client';
 
-import _formatMuiErrorMessage from "@mui/utils/formatMuiErrorMessage";
+import _formatMuiErrorMessage from "my-mui/utils/formatMuiErrorMessage";
 export { default as THEME_ID } from './identifier';
 export { default as adaptV4Theme } from './adaptV4Theme';
-export { hexToRgb, rgbToHex, hslToRgb, decomposeColor, recomposeColor, getContrastRatio, getLuminance, emphasize, alpha, darken, lighten, css, keyframes } from '@mui/system';
+export { hexToRgb, rgbToHex, hslToRgb, decomposeColor, recomposeColor, getContrastRatio, getLuminance, emphasize, alpha, darken, lighten, css, keyframes } from 'my-mui/system';
 // TODO: Remove this function in v6.
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export function experimental_sx() {
@@ -20,8 +20,8 @@ export { default as useThemeProps } from './useThemeProps';
 export { default as styled } from './styled';
 export { default as experimentalStyled } from './styled';
 export { default as ThemeProvider } from './ThemeProvider';
-export { StyledEngineProvider } from '@mui/system';
-// The legacy utilities from @mui/styles
+export { StyledEngineProvider } from 'my-mui/system';
+// The legacy utilities from my-mui/styles
 // These are just empty functions that throws when invoked
 export { default as makeStyles } from './makeStyles';
 export { default as withStyles } from './withStyles';

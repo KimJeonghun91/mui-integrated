@@ -6,7 +6,7 @@ const _excluded = ["children", "className", "color", "component", "disabled", "e
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import composeClasses from '@mui/utils/composeClasses';
+import composeClasses from 'my-mui/utils/composeClasses';
 import useThemeProps from '../styles/useThemeProps';
 import styled from '../styles/styled';
 import { isFilled, isAdornedStart } from '../InputBase/utils';

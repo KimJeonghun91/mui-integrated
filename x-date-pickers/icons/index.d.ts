@@ -1,48 +1,48 @@
 /**
  * @ignore - internal component.
  */
-export declare const ArrowDropDownIcon: import("@mui/material/OverridableComponent").OverridableComponent<import("@mui/material").SvgIconTypeMap<{}, "svg">> & {
+export declare const ArrowDropDownIcon: import("my-mui/material/OverridableComponent").OverridableComponent<import("my-mui/material").SvgIconTypeMap<{}, "svg">> & {
     muiName: string;
 };
 /**
  * @ignore - internal component.
  */
-export declare const ArrowLeftIcon: import("@mui/material/OverridableComponent").OverridableComponent<import("@mui/material").SvgIconTypeMap<{}, "svg">> & {
+export declare const ArrowLeftIcon: import("my-mui/material/OverridableComponent").OverridableComponent<import("my-mui/material").SvgIconTypeMap<{}, "svg">> & {
     muiName: string;
 };
 /**
  * @ignore - internal component.
  */
-export declare const ArrowRightIcon: import("@mui/material/OverridableComponent").OverridableComponent<import("@mui/material").SvgIconTypeMap<{}, "svg">> & {
+export declare const ArrowRightIcon: import("my-mui/material/OverridableComponent").OverridableComponent<import("my-mui/material").SvgIconTypeMap<{}, "svg">> & {
     muiName: string;
 };
 /**
  * @ignore - internal component.
  */
-export declare const CalendarIcon: import("@mui/material/OverridableComponent").OverridableComponent<import("@mui/material").SvgIconTypeMap<{}, "svg">> & {
+export declare const CalendarIcon: import("my-mui/material/OverridableComponent").OverridableComponent<import("my-mui/material").SvgIconTypeMap<{}, "svg">> & {
     muiName: string;
 };
 /**
  * @ignore - internal component.
  */
-export declare const ClockIcon: import("@mui/material/OverridableComponent").OverridableComponent<import("@mui/material").SvgIconTypeMap<{}, "svg">> & {
+export declare const ClockIcon: import("my-mui/material/OverridableComponent").OverridableComponent<import("my-mui/material").SvgIconTypeMap<{}, "svg">> & {
     muiName: string;
 };
 /**
  * @ignore - internal component.
  */
-export declare const DateRangeIcon: import("@mui/material/OverridableComponent").OverridableComponent<import("@mui/material").SvgIconTypeMap<{}, "svg">> & {
+export declare const DateRangeIcon: import("my-mui/material/OverridableComponent").OverridableComponent<import("my-mui/material").SvgIconTypeMap<{}, "svg">> & {
     muiName: string;
 };
 /**
  * @ignore - internal component.
  */
-export declare const TimeIcon: import("@mui/material/OverridableComponent").OverridableComponent<import("@mui/material").SvgIconTypeMap<{}, "svg">> & {
+export declare const TimeIcon: import("my-mui/material/OverridableComponent").OverridableComponent<import("my-mui/material").SvgIconTypeMap<{}, "svg">> & {
     muiName: string;
 };
 /**
  * @ignore - internal component.
  */
-export declare const ClearIcon: import("@mui/material/OverridableComponent").OverridableComponent<import("@mui/material").SvgIconTypeMap<{}, "svg">> & {
+export declare const ClearIcon: import("my-mui/material/OverridableComponent").OverridableComponent<import("my-mui/material").SvgIconTypeMap<{}, "svg">> & {
     muiName: string;
 };

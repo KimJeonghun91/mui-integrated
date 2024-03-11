@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = useMediaQuery;
 var React = _interopRequireWildcard(require("react"));
-var _useEnhancedEffect = _interopRequireDefault(require("@mui/utils/useEnhancedEffect"));
+var _useEnhancedEffect = _interopRequireDefault(require("my-mui/utils/useEnhancedEffect"));
 var _useThemeProps = require("../useThemeProps");
 var _useThemeWithoutDefault = _interopRequireDefault(require("../useThemeWithoutDefault"));
 function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }

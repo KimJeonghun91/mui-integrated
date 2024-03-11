@@ -1,8 +1,8 @@
 /// <reference types="react" />
-import { SlotComponentProps } from '@mui/base/utils';
-import IconButton from '@mui/material/IconButton';
-import SvgIcon from '@mui/material/SvgIcon';
-import { SxProps, Theme } from '@mui/material/styles';
+import { SlotComponentProps } from 'my-mui/base/utils';
+import IconButton from 'my-mui/material/IconButton';
+import SvgIcon from 'my-mui/material/SvgIcon';
+import { SxProps, Theme } from 'my-mui/material/styles';
 import { ExportedPickersArrowSwitcherProps, PickersArrowSwitcherSlotsComponent, PickersArrowSwitcherSlotsComponentsProps } from '../internals/components/PickersArrowSwitcher';
 import { MonthValidationOptions } from '../internals/hooks/date-helpers-hooks';
 import { UncapitalizeObjectKeys } from '../internals/utils/slots-migration';

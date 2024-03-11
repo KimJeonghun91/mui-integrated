@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.ModalManager = void 0;
 exports.ariaHidden = ariaHidden;
-var _utils = require("@mui/utils");
+var _utils = require("my-mui/utils");
 // Is a vertical scrollbar displayed?
 function isOverflowing(container) {
   const doc = (0, _utils.unstable_ownerDocument)(container);

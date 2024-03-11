@@ -2,10 +2,10 @@ import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose";
 const _excluded = ["colorSchemes", "cssVarPrefix", "shouldSkipGeneratingVar"],
   _excluded2 = ["palette"];
-import deepmerge from '@mui/utils/deepmerge';
-import { unstable_createGetCssVar as systemCreateGetCssVar, unstable_prepareCssVars as prepareCssVars } from '@mui/system';
-import styleFunctionSx, { unstable_defaultSxConfig as defaultSxConfig } from '@mui/system/styleFunctionSx';
-import { private_safeColorChannel as safeColorChannel, private_safeAlpha as safeAlpha, private_safeDarken as safeDarken, private_safeLighten as safeLighten, private_safeEmphasize as safeEmphasize, hslToRgb } from '@mui/system/colorManipulator';
+import deepmerge from 'my-mui/utils/deepmerge';
+import { unstable_createGetCssVar as systemCreateGetCssVar, unstable_prepareCssVars as prepareCssVars } from 'my-mui/system';
+import styleFunctionSx, { unstable_defaultSxConfig as defaultSxConfig } from 'my-mui/system/styleFunctionSx';
+import { private_safeColorChannel as safeColorChannel, private_safeAlpha as safeAlpha, private_safeDarken as safeDarken, private_safeLighten as safeLighten, private_safeEmphasize as safeEmphasize, hslToRgb } from 'my-mui/system/colorManipulator';
 import defaultShouldSkipGeneratingVar from './shouldSkipGeneratingVar';
 import createThemeWithoutVars from './createTheme';
 import getOverlayAlpha from './getOverlayAlpha';

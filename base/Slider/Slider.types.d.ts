@@ -1,4 +1,4 @@
-import { Simplify } from '@mui/types';
+import { Simplify } from 'my-mui/types';
 import * as React from 'react';
 import { PolymorphicProps, SlotComponentProps, SlotComponentPropsWithSlotState } from '../utils';
 import { UseSliderHiddenInputProps, UseSliderParameters, UseSliderRootSlotProps, UseSliderThumbSlotProps } from '../useSlider';

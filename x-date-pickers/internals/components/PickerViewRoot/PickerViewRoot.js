@@ -1,4 +1,4 @@
-import { styled } from '@mui/material/styles';
+import { styled } from 'my-mui/material/styles';
 import { DIALOG_WIDTH, VIEW_HEIGHT } from '../../constants/dimensions';
 export const PickerViewRoot = styled('div')({
   overflow: 'hidden',

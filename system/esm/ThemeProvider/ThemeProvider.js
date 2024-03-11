@@ -3,9 +3,9 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { ThemeProvider as MuiThemeProvider, useTheme as usePrivateTheme } from '@mui/private-theming';
-import exactProp from '@mui/utils/exactProp';
-import { ThemeContext as StyledEngineThemeContext } from '@mui/styled-engine';
+import { ThemeProvider as MuiThemeProvider, useTheme as usePrivateTheme } from 'my-mui/private-theming';
+import exactProp from 'my-mui/utils/exactProp';
+import { ThemeContext as StyledEngineThemeContext } from 'my-mui/styled-engine';
 import useThemeWithoutDefault from '../useThemeWithoutDefault';
 import { jsx as _jsx } from "react/jsx-runtime";
 const EMPTY_THEME = {};

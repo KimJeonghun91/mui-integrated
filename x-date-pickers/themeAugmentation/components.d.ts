@@ -1,4 +1,4 @@
-import { ComponentsProps, ComponentsOverrides } from '@mui/material/styles';
+import { ComponentsProps, ComponentsOverrides } from 'my-mui/material/styles';
 
 export interface PickerComponents<Theme = unknown> {
   MuiClock?: {
@@ -169,6 +169,6 @@ export interface PickerComponents<Theme = unknown> {
   };
 }
 
-declare module '@mui/material/styles' {
+declare module 'my-mui/material/styles' {
   interface Components<Theme = unknown> extends PickerComponents<Theme> {}
 }

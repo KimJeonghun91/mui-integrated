@@ -1,4 +1,4 @@
-import { SxProps } from '@mui/system';
+import { SxProps } from 'my-mui/system';
 import { InternalStandardProps as StandardProps, Theme } from '..';
 import { InputBaseProps } from '../InputBase';
 import { InputClasses } from './inputClasses';

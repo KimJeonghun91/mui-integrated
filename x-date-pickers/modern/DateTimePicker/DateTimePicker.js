@@ -3,9 +3,9 @@ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWith
 const _excluded = ["desktopModeMediaQuery"];
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import useMediaQuery from '@mui/material/useMediaQuery';
-import { useThemeProps } from '@mui/material/styles';
-import { refType } from '@mui/utils';
+import useMediaQuery from 'my-mui/material/useMediaQuery';
+import { useThemeProps } from 'my-mui/material/styles';
+import { refType } from 'my-mui/utils';
 import { DesktopDateTimePicker } from '../DesktopDateTimePicker';
 import { MobileDateTimePicker } from '../MobileDateTimePicker';
 import { DEFAULT_DESKTOP_MODE_MEDIA_QUERY } from '../internals/utils/utils';

@@ -1,3 +1,3 @@
-# @mui/types
+# my-mui/types
 
 Utility types used by MUI.

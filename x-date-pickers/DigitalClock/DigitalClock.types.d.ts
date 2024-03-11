@@ -1,6 +1,6 @@
 /// <reference types="react" />
-import { SlotComponentProps } from '@mui/base/utils';
-import MenuItem from '@mui/material/MenuItem';
+import { SlotComponentProps } from 'my-mui/base/utils';
+import MenuItem from 'my-mui/material/MenuItem';
 import { DigitalClockClasses } from './digitalClockClasses';
 import { UncapitalizeObjectKeys } from '../internals/utils/slots-migration';
 import { BaseClockProps, DigitalClockOnlyProps, ExportedBaseClockProps } from '../internals/models/props/clock';
@@ -10,7 +10,7 @@ export interface ExportedDigitalClockProps<TDate> extends ExportedBaseClockProps
 export interface DigitalClockSlotsComponent {
     /**
      * Component responsible for rendering a single digital clock item.
-     * @default MenuItem from '@mui/material'
+     * @default MenuItem from 'my-mui/material'
      */
     DigitalClockItem?: React.ElementType;
 }

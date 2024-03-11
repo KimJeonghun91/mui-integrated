@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.useCalendarState = exports.createCalendarStateReducer = void 0;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 var React = _interopRequireWildcard(require("react"));
-var _useEventCallback = _interopRequireDefault(require("@mui/utils/useEventCallback"));
+var _useEventCallback = _interopRequireDefault(require("my-mui/utils/useEventCallback"));
 var _useIsDateDisabled = require("./useIsDateDisabled");
 var _useUtils = require("../internals/hooks/useUtils");
 var _valueManagers = require("../internals/utils/valueManagers");

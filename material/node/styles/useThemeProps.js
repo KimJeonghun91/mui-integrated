@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = useThemeProps;
-var _useThemeProps = _interopRequireDefault(require("@mui/system/useThemeProps"));
+var _useThemeProps = _interopRequireDefault(require("my-mui/system/useThemeProps"));
 var _defaultTheme = _interopRequireDefault(require("./defaultTheme"));
 var _identifier = _interopRequireDefault(require("./identifier"));
 function useThemeProps({

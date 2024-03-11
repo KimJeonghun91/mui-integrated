@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.getYearCalendarUtilityClass = getYearCalendarUtilityClass;
 exports.yearCalendarClasses = void 0;
-var _utils = require("@mui/utils");
+var _utils = require("my-mui/utils");
 function getYearCalendarUtilityClass(slot) {
   return (0, _utils.unstable_generateUtilityClass)('MuiYearCalendar', slot);
 }

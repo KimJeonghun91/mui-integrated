@@ -4,8 +4,8 @@ var _excluded = ["ampm", "ampmInClock", "autoFocus", "components", "componentsPr
 import * as React from 'react';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
-import { styled, useThemeProps } from '@mui/material/styles';
-import { unstable_composeClasses as composeClasses, unstable_useId as useId } from '@mui/utils';
+import { styled, useThemeProps } from 'my-mui/material/styles';
+import { unstable_composeClasses as composeClasses, unstable_useId as useId } from 'my-mui/utils';
 import { useUtils, useNow, useLocaleText } from '../internals/hooks/useUtils';
 import { PickersArrowSwitcher } from '../internals/components/PickersArrowSwitcher';
 import { convertValueToMeridiem, createIsAfterIgnoreDatePart } from '../internals/utils/time-utils';

@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { OverridableStringUnion } from '@mui/types';
-import { SxProps } from '@mui/system';
-import { InternalStandardProps as StandardProps, Theme } from '@mui/material';
+import { OverridableStringUnion } from 'my-mui/types';
+import { SxProps } from 'my-mui/system';
+import { InternalStandardProps as StandardProps, Theme } from 'my-mui/material';
 import { AvatarGroupClasses } from './avatarGroupClasses';
 import Avatar from '../Avatar';
 

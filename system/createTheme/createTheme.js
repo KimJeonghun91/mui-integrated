@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutPropertiesLoose"));
-var _deepmerge = _interopRequireDefault(require("@mui/utils/deepmerge"));
+var _deepmerge = _interopRequireDefault(require("my-mui/utils/deepmerge"));
 var _createBreakpoints = _interopRequireDefault(require("./createBreakpoints"));
 var _shape = _interopRequireDefault(require("./shape"));
 var _createSpacing = _interopRequireDefault(require("./createSpacing"));

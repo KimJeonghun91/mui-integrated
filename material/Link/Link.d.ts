@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { DistributiveOmit } from '@mui/types';
-import { SxProps } from '@mui/system';
+import { DistributiveOmit } from 'my-mui/types';
+import { SxProps } from 'my-mui/system';
 import { OverridableComponent, OverrideProps } from '../OverridableComponent';
 import { Theme } from '../styles';
 import { TypographyOwnProps } from '../Typography';

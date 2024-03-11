@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.getPickersToolbarButtonUtilityClass = getPickersToolbarButtonUtilityClass;
 exports.pickersToolbarButtonClasses = void 0;
-var _utils = require("@mui/utils");
+var _utils = require("my-mui/utils");
 function getPickersToolbarButtonUtilityClass(slot) {
   return (0, _utils.unstable_generateUtilityClass)('MuiPickersToolbarButton', slot);
 }

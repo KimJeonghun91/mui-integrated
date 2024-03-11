@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = createTypography;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutPropertiesLoose"));
-var _deepmerge = _interopRequireDefault(require("@mui/utils/deepmerge"));
+var _deepmerge = _interopRequireDefault(require("my-mui/utils/deepmerge"));
 const _excluded = ["fontFamily", "fontSize", "fontWeightLight", "fontWeightRegular", "fontWeightMedium", "fontWeightBold", "htmlFontSize", "allVariants", "pxToRem"];
 function round(value) {
   return Math.round(value * 1e5) / 1e5;

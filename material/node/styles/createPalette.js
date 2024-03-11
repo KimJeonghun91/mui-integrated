@@ -9,9 +9,9 @@ exports.default = createPalette;
 exports.light = void 0;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutPropertiesLoose"));
-var _formatMuiErrorMessage2 = _interopRequireDefault(require("@mui/utils/formatMuiErrorMessage"));
-var _deepmerge = _interopRequireDefault(require("@mui/utils/deepmerge"));
-var _colorManipulator = require("@mui/system/colorManipulator");
+var _formatMuiErrorMessage2 = _interopRequireDefault(require("my-mui/utils/formatMuiErrorMessage"));
+var _deepmerge = _interopRequireDefault(require("my-mui/utils/deepmerge"));
+var _colorManipulator = require("my-mui/system/colorManipulator");
 var _common = _interopRequireDefault(require("../colors/common"));
 var _grey = _interopRequireDefault(require("../colors/grey"));
 var _purple = _interopRequireDefault(require("../colors/purple"));
@@ -231,7 +231,7 @@ The color object needs to have a \`main\` property or a \`${mainShade}\` propert
 
 Did you intend to use one of the following approaches?
 
-import { green } from "@mui/material/colors";
+import { green } from "my-mui/material/colors";
 
 const theme1 = createTheme({ palette: {
   primary: green,

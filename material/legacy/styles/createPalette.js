@@ -1,8 +1,8 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutProperties";
-import _formatMuiErrorMessage from "@mui/utils/formatMuiErrorMessage";
-import deepmerge from '@mui/utils/deepmerge';
-import { darken, getContrastRatio, lighten } from '@mui/system/colorManipulator';
+import _formatMuiErrorMessage from "my-mui/utils/formatMuiErrorMessage";
+import deepmerge from 'my-mui/utils/deepmerge';
+import { darken, getContrastRatio, lighten } from 'my-mui/system/colorManipulator';
 import common from '../colors/common';
 import grey from '../colors/grey';
 import purple from '../colors/purple';
@@ -224,7 +224,7 @@ export default function createPalette(palette) {
       throw new Error(process.env.NODE_ENV !== "production" ? "MUI: The color".concat(name ? " (".concat(name, ")") : '', " provided to augmentColor(color) is invalid.\nThe color object needs to have a `main` property or a `").concat(mainShade, "` property.") : _formatMuiErrorMessage(11, name ? " (".concat(name, ")") : '', mainShade));
     }
     if (typeof color.main !== 'string') {
-      throw new Error(process.env.NODE_ENV !== "production" ? "MUI: The color".concat(name ? " (".concat(name, ")") : '', " provided to augmentColor(color) is invalid.\n`color.main` should be a string, but `").concat(JSON.stringify(color.main), "` was provided instead.\n\nDid you intend to use one of the following approaches?\n\nimport { green } from \"@mui/material/colors\";\n\nconst theme1 = createTheme({ palette: {\n  primary: green,\n} });\n\nconst theme2 = createTheme({ palette: {\n  primary: { main: green[500] },\n} });") : _formatMuiErrorMessage(12, name ? " (".concat(name, ")") : '', JSON.stringify(color.main)));
+      throw new Error(process.env.NODE_ENV !== "production" ? "MUI: The color".concat(name ? " (".concat(name, ")") : '', " provided to augmentColor(color) is invalid.\n`color.main` should be a string, but `").concat(JSON.stringify(color.main), "` was provided instead.\n\nDid you intend to use one of the following approaches?\n\nimport { green } from \"my-mui/material/colors\";\n\nconst theme1 = createTheme({ palette: {\n  primary: green,\n} });\n\nconst theme2 = createTheme({ palette: {\n  primary: { main: green[500] },\n} });") : _formatMuiErrorMessage(12, name ? " (".concat(name, ")") : '', JSON.stringify(color.main)));
     }
     addLightOrDark(color, 'light', lightShade, tonalOffset);
     addLightOrDark(color, 'dark', darkShade, tonalOffset);

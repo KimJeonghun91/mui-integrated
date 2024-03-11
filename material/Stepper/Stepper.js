@@ -6,8 +6,8 @@ const _excluded = ["activeStep", "alternativeLabel", "children", "className", "c
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import integerPropType from '@mui/utils/integerPropType';
-import composeClasses from '@mui/utils/composeClasses';
+import integerPropType from 'my-mui/utils/integerPropType';
+import composeClasses from 'my-mui/utils/composeClasses';
 import useThemeProps from '../styles/useThemeProps';
 import styled from '../styles/styled';
 import { getStepperUtilityClass } from './stepperClasses';

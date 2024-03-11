@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.getPickersPopperUtilityClass = getPickersPopperUtilityClass;
 exports.pickersPopperClasses = void 0;
-var _utils = require("@mui/utils");
+var _utils = require("my-mui/utils");
 function getPickersPopperUtilityClass(slot) {
   return (0, _utils.unstable_generateUtilityClass)('MuiPickersPopper', slot);
 }

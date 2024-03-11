@@ -9,4 +9,4 @@ Object.defineProperty(exports, "default", {
     return _NoSsr.NoSsr;
   }
 });
-var _NoSsr = require("@mui/base/NoSsr");
+var _NoSsr = require("my-mui/base/NoSsr");

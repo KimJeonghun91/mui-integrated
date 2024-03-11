@@ -7,10 +7,10 @@ const _excluded = ["ActionsComponent", "backIconButtonProps", "className", "colS
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import integerPropType from '@mui/utils/integerPropType';
-import chainPropTypes from '@mui/utils/chainPropTypes';
-import { isHostComponent } from '@mui/base/utils';
-import composeClasses from '@mui/utils/composeClasses';
+import integerPropType from 'my-mui/utils/integerPropType';
+import chainPropTypes from 'my-mui/utils/chainPropTypes';
+import { isHostComponent } from 'my-mui/base/utils';
+import composeClasses from 'my-mui/utils/composeClasses';
 import styled from '../styles/styled';
 import useThemeProps from '../styles/useThemeProps';
 import InputBase from '../InputBase';

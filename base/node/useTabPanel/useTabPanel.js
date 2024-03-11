@@ -8,7 +8,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.useTabPanel = useTabPanel;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 var React = _interopRequireWildcard(require("react"));
-var _utils = require("@mui/utils");
+var _utils = require("my-mui/utils");
 var _Tabs = require("../Tabs");
 var _useCompound = require("../useCompound");
 function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }

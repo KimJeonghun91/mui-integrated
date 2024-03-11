@@ -4,7 +4,7 @@ import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutProperties";
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { HTMLElementType, refType } from '@mui/utils';
+import { HTMLElementType, refType } from 'my-mui/utils';
 import { getMenuUtilityClass } from './menuClasses';
 import { useMenu } from '../useMenu';
 import { MenuProvider } from '../useMenu/MenuProvider';

@@ -6,9 +6,9 @@ const _excluded = ["children", "color", "component", "className", "disabled", "d
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import resolveProps from '@mui/utils/resolveProps';
-import composeClasses from '@mui/utils/composeClasses';
-import { alpha } from '@mui/system/colorManipulator';
+import resolveProps from 'my-mui/utils/resolveProps';
+import composeClasses from 'my-mui/utils/composeClasses';
+import { alpha } from 'my-mui/system/colorManipulator';
 import styled, { rootShouldForwardProp } from '../styles/styled';
 import useThemeProps from '../styles/useThemeProps';
 import ButtonBase from '../ButtonBase';

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { DistributiveOmit } from '@mui/types';
-declare module '@mui/material/OverridableComponent' {
+import { DistributiveOmit } from 'my-mui/types';
+declare module 'my-mui/material/OverridableComponent' {
     /**
      * A component whose root component can be controlled via a `component` prop.
      *

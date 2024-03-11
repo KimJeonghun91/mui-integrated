@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = getThemeProps;
-var _resolveProps = _interopRequireDefault(require("@mui/utils/resolveProps"));
+var _resolveProps = _interopRequireDefault(require("my-mui/utils/resolveProps"));
 function getThemeProps(params) {
   const {
     theme,

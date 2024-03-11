@@ -2,7 +2,7 @@ import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose";
 const _excluded = ["defaultProps", "mixins", "overrides", "palette", "props", "styleOverrides"],
   _excluded2 = ["type", "mode"];
-import { createBreakpoints, createSpacing } from '@mui/system';
+import { createBreakpoints, createSpacing } from 'my-mui/system';
 export default function adaptV4Theme(inputTheme) {
   if (process.env.NODE_ENV !== 'production') {
     console.warn(['MUI: adaptV4Theme() is deprecated.', 'Follow the upgrade guide on https://mui.com/r/migration-v4#theme.'].join('\n'));

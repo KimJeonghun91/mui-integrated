@@ -1,4 +1,4 @@
-import { globalStateClasses } from '@mui/utils/generateUtilityClass';
+import { globalStateClasses } from 'my-mui/utils/generateUtilityClass';
 const GLOBAL_CLASS_PREFIX = 'base';
 function buildStateClass(state) {
   return `${GLOBAL_CLASS_PREFIX}--${state}`;

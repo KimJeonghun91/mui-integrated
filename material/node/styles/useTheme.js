@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = useTheme;
 var React = _interopRequireWildcard(require("react"));
-var _system = require("@mui/system");
+var _system = require("my-mui/system");
 var _defaultTheme = _interopRequireDefault(require("./defaultTheme"));
 var _identifier = _interopRequireDefault(require("./identifier"));
 function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }

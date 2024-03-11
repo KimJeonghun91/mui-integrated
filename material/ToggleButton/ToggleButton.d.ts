@@ -1,5 +1,5 @@
-import { SxProps } from '@mui/system';
-import { OverridableStringUnion } from '@mui/types';
+import { SxProps } from 'my-mui/system';
+import { OverridableStringUnion } from 'my-mui/types';
 import * as React from 'react';
 import { Theme } from '..';
 import { ExtendButtonBase, ExtendButtonBaseTypeMap } from '../ButtonBase';

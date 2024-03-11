@@ -1,5 +1,5 @@
 /**
- * @mui/material v5.15.12
+ * my-mui/material v5.15.12
  *
  * @license MIT
  * This source code is licensed under the MIT license found in the
@@ -2604,7 +2604,7 @@ Object.keys(_GlobalStyles).forEach(function (key) {
     }
   });
 });
-var _composeClasses = require("@mui/base/composeClasses");
+var _composeClasses = require("my-mui/base/composeClasses");
 var _generateUtilityClass = _interopRequireWildcard(require("./generateUtilityClass"));
 Object.keys(_generateUtilityClass).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ListProps } from '@mui/material/List';
+import { ListProps } from 'my-mui/material/List';
 interface PickersShortcutsItemGetValueParams<TValue> {
     isValid: (value: TValue) => boolean;
 }

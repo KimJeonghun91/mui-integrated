@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { DialogActionsProps } from '@mui/material/DialogActions';
+import { DialogActionsProps } from 'my-mui/material/DialogActions';
 export type PickersActionBarAction = 'clear' | 'cancel' | 'accept' | 'today';
 export interface PickersActionBarProps extends DialogActionsProps {
     /**

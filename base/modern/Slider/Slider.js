@@ -6,7 +6,7 @@ const _excluded = ["aria-label", "aria-valuetext", "aria-labelledby", "className
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import { chainPropTypes } from '@mui/utils';
+import { chainPropTypes } from 'my-mui/utils';
 import { isHostComponent } from '../utils/isHostComponent';
 import { unstable_composeClasses as composeClasses } from '../composeClasses';
 import { getSliderUtilityClass } from './sliderClasses';

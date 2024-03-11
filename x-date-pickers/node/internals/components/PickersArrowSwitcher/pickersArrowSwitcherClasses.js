@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.getPickersArrowSwitcherUtilityClass = getPickersArrowSwitcherUtilityClass;
 exports.pickersArrowSwitcherClasses = void 0;
-var _utils = require("@mui/utils");
+var _utils = require("my-mui/utils");
 function getPickersArrowSwitcherUtilityClass(slot) {
   return (0, _utils.unstable_generateUtilityClass)('MuiPickersArrowSwitcher', slot);
 }

@@ -8,7 +8,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = usePagination;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutPropertiesLoose"));
-var _useControlled = _interopRequireDefault(require("@mui/utils/useControlled"));
+var _useControlled = _interopRequireDefault(require("my-mui/utils/useControlled"));
 const _excluded = ["boundaryCount", "componentName", "count", "defaultPage", "disabled", "hideNextButton", "hidePrevButton", "onChange", "page", "showFirstButton", "showLastButton", "siblingCount"];
 function usePagination(props = {}) {
   // keep default values in sync with @default tags in Pagination.propTypes

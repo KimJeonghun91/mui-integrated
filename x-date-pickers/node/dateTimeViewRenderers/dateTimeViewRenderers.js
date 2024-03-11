@@ -7,8 +7,8 @@ Object.defineProperty(exports, "__esModule", {
 exports.renderDesktopDateTimeView = void 0;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 var React = _interopRequireWildcard(require("react"));
-var _Divider = _interopRequireDefault(require("@mui/material/Divider"));
-var _utils = require("@mui/base/utils");
+var _Divider = _interopRequireDefault(require("my-mui/material/Divider"));
+var _utils = require("my-mui/base/utils");
 var _DateCalendar = require("../DateCalendar");
 var _MultiSectionDigitalClock = require("../MultiSectionDigitalClock");
 var _DateTimeViewWrapper = require("../internals/components/DateTimeViewWrapper");

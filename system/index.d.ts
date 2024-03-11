@@ -93,7 +93,7 @@ export function unstable_getThemeValue(prop: string, value: any, theme: object):
  */
 export type ResponsiveStyleValue<T> = T | Array<T | null> | { [key: string]: T | null };
 
-export { DefaultTheme } from '@mui/private-theming';
+export { DefaultTheme } from 'my-mui/private-theming';
 
 export {
   css,
@@ -102,7 +102,7 @@ export {
   Interpolation,
   CSSInterpolation,
   CSSObject,
-} from '@mui/styled-engine';
+} from 'my-mui/styled-engine';
 export { default as GlobalStyles } from './GlobalStyles';
 export type { GlobalStylesProps } from './GlobalStyles';
 

@@ -4,7 +4,7 @@ import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutPr
 var _excluded = ["props", "ref"];
 import * as React from 'react';
 import clsx from 'clsx';
-import { styled } from '@mui/material/styles';
+import { styled } from 'my-mui/material/styles';
 import { usePicker } from '../usePicker';
 import { LocalizationProvider } from '../../../LocalizationProvider';
 import { PickersLayout } from '../../../PickersLayout';

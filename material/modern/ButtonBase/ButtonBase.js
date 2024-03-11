@@ -6,9 +6,9 @@ const _excluded = ["action", "centerRipple", "children", "className", "component
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import refType from '@mui/utils/refType';
-import elementTypeAcceptingRef from '@mui/utils/elementTypeAcceptingRef';
-import composeClasses from '@mui/utils/composeClasses';
+import refType from 'my-mui/utils/refType';
+import elementTypeAcceptingRef from 'my-mui/utils/elementTypeAcceptingRef';
+import composeClasses from 'my-mui/utils/composeClasses';
 import styled from '../styles/styled';
 import useThemeProps from '../styles/useThemeProps';
 import useForkRef from '../utils/useForkRef';

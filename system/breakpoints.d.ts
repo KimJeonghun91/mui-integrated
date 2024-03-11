@@ -1,4 +1,4 @@
-import { CSSObject } from '@mui/styled-engine';
+import { CSSObject } from 'my-mui/styled-engine';
 import { Breakpoints } from './createTheme/createBreakpoints';
 import type { Breakpoint } from './createTheme';
 import { ResponsiveStyleValue } from './styleFunctionSx';

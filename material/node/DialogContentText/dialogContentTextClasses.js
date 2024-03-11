@@ -6,8 +6,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 exports.getDialogContentTextUtilityClass = getDialogContentTextUtilityClass;
-var _generateUtilityClasses = _interopRequireDefault(require("@mui/utils/generateUtilityClasses"));
-var _generateUtilityClass = _interopRequireDefault(require("@mui/utils/generateUtilityClass"));
+var _generateUtilityClasses = _interopRequireDefault(require("my-mui/utils/generateUtilityClasses"));
+var _generateUtilityClass = _interopRequireDefault(require("my-mui/utils/generateUtilityClass"));
 function getDialogContentTextUtilityClass(slot) {
   return (0, _generateUtilityClass.default)('MuiDialogContentText', slot);
 }

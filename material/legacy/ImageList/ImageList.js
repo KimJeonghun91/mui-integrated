@@ -2,8 +2,8 @@
 
 import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutProperties";
 import _extends from "@babel/runtime/helpers/esm/extends";
-import composeClasses from '@mui/utils/composeClasses';
-import integerPropType from '@mui/utils/integerPropType';
+import composeClasses from 'my-mui/utils/composeClasses';
+import integerPropType from 'my-mui/utils/integerPropType';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
 import * as React from 'react';

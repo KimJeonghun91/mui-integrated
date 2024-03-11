@@ -6,8 +6,8 @@ const _excluded = ["align", "className", "component", "gutterBottom", "noWrap", 
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import { extendSxProp } from '@mui/system/styleFunctionSx';
-import composeClasses from '@mui/utils/composeClasses';
+import { extendSxProp } from 'my-mui/system/styleFunctionSx';
+import composeClasses from 'my-mui/utils/composeClasses';
 import styled from '../styles/styled';
 import useThemeProps from '../styles/useThemeProps';
 import capitalize from '../utils/capitalize';

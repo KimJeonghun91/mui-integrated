@@ -1,4 +1,4 @@
-export { ModalManager } from '@mui/base/unstable_useModal'; // exporting ModalManager
+export { ModalManager } from 'my-mui/base/unstable_useModal'; // exporting ModalManager
 
 export { default } from './Modal';
 export * from './Modal';

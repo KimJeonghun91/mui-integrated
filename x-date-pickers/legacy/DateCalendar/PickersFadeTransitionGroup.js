@@ -1,9 +1,9 @@
 import * as React from 'react';
 import clsx from 'clsx';
 import { TransitionGroup } from 'react-transition-group';
-import Fade from '@mui/material/Fade';
-import { styled, useTheme, useThemeProps } from '@mui/material/styles';
-import composeClasses from '@mui/utils/composeClasses';
+import Fade from 'my-mui/material/Fade';
+import { styled, useTheme, useThemeProps } from 'my-mui/material/styles';
+import composeClasses from 'my-mui/utils/composeClasses';
 import { getPickersFadeTransitionGroupUtilityClass } from './pickersFadeTransitionGroupClasses';
 import { jsx as _jsx } from "react/jsx-runtime";
 var useUtilityClasses = function useUtilityClasses(ownerState) {

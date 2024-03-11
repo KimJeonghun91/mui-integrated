@@ -11,7 +11,7 @@ var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends")
 var React = _interopRequireWildcard(require("react"));
 var _propTypes = _interopRequireDefault(require("prop-types"));
 var _clsx = _interopRequireDefault(require("clsx"));
-var _composeClasses = _interopRequireDefault(require("@mui/utils/composeClasses"));
+var _composeClasses = _interopRequireDefault(require("my-mui/utils/composeClasses"));
 var _styled = _interopRequireDefault(require("../styles/styled"));
 var _useThemeProps = _interopRequireDefault(require("../styles/useThemeProps"));
 var _listItemIconClasses = require("./listItemIconClasses");
@@ -81,7 +81,7 @@ process.env.NODE_ENV !== "production" ? ListItemIcon.propTypes /* remove-proptyp
   // └─────────────────────────────────────────────────────────────────────┘
   /**
    * The content of the component, normally `Icon`, `SvgIcon`,
-   * or a `@mui/icons-material` SVG icon element.
+   * or a `my-mui/icons-material` SVG icon element.
    */
   children: _propTypes.default.node,
   /**

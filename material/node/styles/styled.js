@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.slotShouldForwardProp = exports.rootShouldForwardProp = exports.default = void 0;
-var _createStyled = _interopRequireWildcard(require("@mui/system/createStyled"));
+var _createStyled = _interopRequireWildcard(require("my-mui/system/createStyled"));
 var _defaultTheme = _interopRequireDefault(require("./defaultTheme"));
 var _identifier = _interopRequireDefault(require("./identifier"));
 function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }

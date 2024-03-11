@@ -1,6 +1,6 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
 import * as React from 'react';
-import { useThemeProps } from '@mui/material/styles';
+import { useThemeProps } from 'my-mui/material/styles';
 import { useDefaultDates, useUtils } from '../internals/hooks/useUtils';
 import { applyDefaultViewProps } from '../internals/utils/views';
 import { applyDefaultDate } from '../internals/utils/date-utils';

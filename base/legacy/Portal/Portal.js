@@ -3,7 +3,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
-import { exactProp, HTMLElementType, unstable_useEnhancedEffect as useEnhancedEffect, unstable_useForkRef as useForkRef, unstable_setRef as setRef } from '@mui/utils';
+import { exactProp, HTMLElementType, unstable_useEnhancedEffect as useEnhancedEffect, unstable_useForkRef as useForkRef, unstable_setRef as setRef } from 'my-mui/utils';
 import { jsx as _jsx } from "react/jsx-runtime";
 function getContainer(container) {
   return typeof container === 'function' ? container() : container;

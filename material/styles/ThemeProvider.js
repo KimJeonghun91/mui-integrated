@@ -5,7 +5,7 @@ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWith
 const _excluded = ["theme"];
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { ThemeProvider as SystemThemeProvider } from '@mui/system';
+import { ThemeProvider as SystemThemeProvider } from 'my-mui/system';
 import THEME_ID from './identifier';
 import { jsx as _jsx } from "react/jsx-runtime";
 export default function ThemeProvider(_ref) {

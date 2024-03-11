@@ -16,9 +16,9 @@ const _excluded = ["className", "columns", "columnSpacing", "component", "contai
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import { handleBreakpoints, unstable_resolveBreakpointValues as resolveBreakpointValues } from '@mui/system';
-import { extendSxProp } from '@mui/system/styleFunctionSx';
-import composeClasses from '@mui/utils/composeClasses';
+import { handleBreakpoints, unstable_resolveBreakpointValues as resolveBreakpointValues } from 'my-mui/system';
+import { extendSxProp } from 'my-mui/system/styleFunctionSx';
+import composeClasses from 'my-mui/utils/composeClasses';
 import requirePropFactory from '../utils/requirePropFactory';
 import styled from '../styles/styled';
 import useThemeProps from '../styles/useThemeProps';

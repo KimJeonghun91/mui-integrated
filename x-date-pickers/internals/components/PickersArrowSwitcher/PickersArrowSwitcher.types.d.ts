@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { SlotComponentProps } from '@mui/base/utils';
-import IconButton from '@mui/material/IconButton';
-import SvgIcon from '@mui/material/SvgIcon';
+import { SlotComponentProps } from 'my-mui/base/utils';
+import IconButton from 'my-mui/material/IconButton';
+import SvgIcon from 'my-mui/material/SvgIcon';
 import { PickersArrowSwitcherClasses } from './pickersArrowSwitcherClasses';
 import { UncapitalizeObjectKeys } from '../../utils/slots-migration';
 export interface ExportedPickersArrowSwitcherProps {

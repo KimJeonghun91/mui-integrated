@@ -5,9 +5,9 @@ import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutPr
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
-import elementTypeAcceptingRef from '@mui/utils/elementTypeAcceptingRef';
-import useThemeProps from '@mui/system/useThemeProps';
-import { NoSsr } from '@mui/base';
+import elementTypeAcceptingRef from 'my-mui/utils/elementTypeAcceptingRef';
+import useThemeProps from 'my-mui/system/useThemeProps';
+import { NoSsr } from 'my-mui/base';
 import Drawer, { getAnchor, isHorizontal } from '../Drawer/Drawer';
 import useForkRef from '../utils/useForkRef';
 import ownerDocument from '../utils/ownerDocument';

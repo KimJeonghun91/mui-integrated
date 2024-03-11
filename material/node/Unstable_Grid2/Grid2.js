@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _propTypes = _interopRequireDefault(require("prop-types"));
-var _Unstable_Grid = require("@mui/system/Unstable_Grid");
+var _Unstable_Grid = require("my-mui/system/Unstable_Grid");
 var _styles = require("../styles");
 const Grid2 = (0, _Unstable_Grid.createGrid)({
   createStyledComponent: (0, _styles.styled)('div', {

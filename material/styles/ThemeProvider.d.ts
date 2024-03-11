@@ -1,4 +1,4 @@
-import { DefaultTheme } from '@mui/system';
+import { DefaultTheme } from 'my-mui/system';
 
 export interface ThemeProviderProps<Theme = DefaultTheme> {
   children?: React.ReactNode;

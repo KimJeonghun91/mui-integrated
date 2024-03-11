@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.getPickersYearUtilityClass = getPickersYearUtilityClass;
 exports.pickersYearClasses = void 0;
-var _utils = require("@mui/utils");
+var _utils = require("my-mui/utils");
 function getPickersYearUtilityClass(slot) {
   return (0, _utils.unstable_generateUtilityClass)('MuiPickersYear', slot);
 }

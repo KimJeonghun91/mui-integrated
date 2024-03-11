@@ -6,8 +6,8 @@ const _excluded = ["checked", "className", "componentsProps", "control", "disabl
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import refType from '@mui/utils/refType';
-import composeClasses from '@mui/utils/composeClasses';
+import refType from 'my-mui/utils/refType';
+import composeClasses from 'my-mui/utils/composeClasses';
 import { useFormControl } from '../FormControl';
 import Stack from '../Stack';
 import Typography from '../Typography';

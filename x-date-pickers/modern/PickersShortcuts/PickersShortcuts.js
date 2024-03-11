@@ -4,9 +4,9 @@ const _excluded = ["items", "changeImportance", "isLandscape", "onChange", "isVa
   _excluded2 = ["getValue"];
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import Chip from '@mui/material/Chip';
+import List from 'my-mui/material/List';
+import ListItem from 'my-mui/material/ListItem';
+import Chip from 'my-mui/material/Chip';
 import { VIEW_HEIGHT } from '../internals/constants/dimensions';
 import { jsx as _jsx } from "react/jsx-runtime";
 /**

@@ -2,7 +2,7 @@
 
 import _extends from "@babel/runtime/helpers/esm/extends";
 import * as React from 'react';
-import { unstable_useId as useId, unstable_useForkRef as useForkRef } from '@mui/utils';
+import { unstable_useId as useId, unstable_useForkRef as useForkRef } from 'my-mui/utils';
 import { useTabsContext } from '../Tabs';
 import { useCompoundItem } from '../useCompound';
 function tabPanelValueGenerator(otherTabPanelValues) {

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Breakpoint } from '@mui/system';
+import { Breakpoint } from 'my-mui/system';
 
 export interface HiddenProps {
   /**

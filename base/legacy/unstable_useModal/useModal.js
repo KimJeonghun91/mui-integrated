@@ -2,7 +2,7 @@
 
 import _extends from "@babel/runtime/helpers/esm/extends";
 import * as React from 'react';
-import { unstable_ownerDocument as ownerDocument, unstable_useForkRef as useForkRef, unstable_useEventCallback as useEventCallback, unstable_createChainedFunction as createChainedFunction } from '@mui/utils';
+import { unstable_ownerDocument as ownerDocument, unstable_useForkRef as useForkRef, unstable_useEventCallback as useEventCallback, unstable_createChainedFunction as createChainedFunction } from 'my-mui/utils';
 import { extractEventHandlers } from '../utils';
 import { ModalManager, ariaHidden } from './ModalManager';
 function getContainer(container) {

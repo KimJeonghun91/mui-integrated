@@ -1,3 +1,3 @@
-import { unstable_generateUtilityClass as generateUtilityClass, unstable_generateUtilityClasses as generateUtilityClasses } from '@mui/utils';
+import { unstable_generateUtilityClass as generateUtilityClass, unstable_generateUtilityClasses as generateUtilityClasses } from 'my-mui/utils';
 export const getPickersSlideTransitionUtilityClass = slot => generateUtilityClass('MuiPickersSlideTransition', slot);
 export const pickersSlideTransitionClasses = generateUtilityClasses('MuiPickersSlideTransition', ['root', 'slideEnter-left', 'slideEnter-right', 'slideEnterActive', 'slideExit', 'slideExitActiveLeft-left', 'slideExitActiveLeft-right']);

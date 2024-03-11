@@ -1,5 +1,5 @@
-import { BoxTypeMap } from '@mui/system';
-import { OverridableComponent } from '@mui/types';
+import { BoxTypeMap } from 'my-mui/system';
+import { OverridableComponent } from 'my-mui/types';
 import { OverrideProps } from '../OverridableComponent';
 import { Theme as MaterialTheme } from '../styles';
 

@@ -1,7 +1,7 @@
 import _defineProperty from "@babel/runtime/helpers/esm/defineProperty";
 import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutProperties";
-import { createBreakpoints, createSpacing } from '@mui/system';
+import { createBreakpoints, createSpacing } from 'my-mui/system';
 export default function adaptV4Theme(inputTheme) {
   if (process.env.NODE_ENV !== 'production') {
     console.warn(['MUI: adaptV4Theme() is deprecated.', 'Follow the upgrade guide on https://mui.com/r/migration-v4#theme.'].join('\n'));

@@ -5,9 +5,9 @@ import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutPr
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import { Transition } from 'react-transition-group';
-import chainPropTypes from '@mui/utils/chainPropTypes';
-import HTMLElementType from '@mui/utils/HTMLElementType';
-import elementAcceptingRef from '@mui/utils/elementAcceptingRef';
+import chainPropTypes from 'my-mui/utils/chainPropTypes';
+import HTMLElementType from 'my-mui/utils/HTMLElementType';
+import elementAcceptingRef from 'my-mui/utils/elementAcceptingRef';
 import debounce from '../utils/debounce';
 import useForkRef from '../utils/useForkRef';
 import useTheme from '../styles/useTheme';

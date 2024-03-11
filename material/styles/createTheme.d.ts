@@ -4,7 +4,7 @@ import {
   SxProps,
   CSSObject,
   SxConfig,
-} from '@mui/system';
+} from 'my-mui/system';
 import { Mixins, MixinsOptions } from './createMixins';
 import { Palette, PaletteOptions } from './createPalette';
 import { Typography, TypographyOptions } from './createTypography';
@@ -49,7 +49,7 @@ export interface Theme extends BaseTheme {
 
 /**
  * @deprecated
- * Use `import { createTheme } from '@mui/material/styles'` instead.
+ * Use `import { createTheme } from 'my-mui/material/styles'` instead.
  */
 export function createMuiTheme(options?: ThemeOptions, ...args: object[]): Theme;
 

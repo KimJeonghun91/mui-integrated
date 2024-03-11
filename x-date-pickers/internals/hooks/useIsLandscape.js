@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { unstable_useEnhancedEffect as useEnhancedEffect } from '@mui/utils';
+import { unstable_useEnhancedEffect as useEnhancedEffect } from 'my-mui/utils';
 import { arrayIncludes } from '../utils/utils';
 function getOrientation() {
   if (typeof window === 'undefined') {

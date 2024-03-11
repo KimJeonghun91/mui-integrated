@@ -3,8 +3,8 @@ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWith
 const _excluded = ["children", "className", "reduceAnimations", "slideDirection", "transKey", "classes"];
 import * as React from 'react';
 import clsx from 'clsx';
-import { styled, useTheme, useThemeProps } from '@mui/material/styles';
-import composeClasses from '@mui/utils/composeClasses';
+import { styled, useTheme, useThemeProps } from 'my-mui/material/styles';
+import composeClasses from 'my-mui/utils/composeClasses';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { getPickersSlideTransitionUtilityClass, pickersSlideTransitionClasses } from './pickersSlideTransitionClasses';
 import { jsx as _jsx } from "react/jsx-runtime";

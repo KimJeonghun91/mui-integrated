@@ -2,7 +2,7 @@
 
 import _slicedToArray from "@babel/runtime/helpers/esm/slicedToArray";
 import * as React from 'react';
-import useEnhancedEffect from '@mui/utils/useEnhancedEffect';
+import useEnhancedEffect from 'my-mui/utils/useEnhancedEffect';
 import { getThemeProps } from '../useThemeProps';
 import useTheme from '../useThemeWithoutDefault';
 

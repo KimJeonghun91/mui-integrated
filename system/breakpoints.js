@@ -14,7 +14,7 @@ exports.resolveBreakpointValues = resolveBreakpointValues;
 exports.values = void 0;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 var _propTypes = _interopRequireDefault(require("prop-types"));
-var _deepmerge = _interopRequireDefault(require("@mui/utils/deepmerge"));
+var _deepmerge = _interopRequireDefault(require("my-mui/utils/deepmerge"));
 var _merge = _interopRequireDefault(require("./merge"));
 // The breakpoint **start** at this value.
 // For instance with the first breakpoint xs: [xs, sm[.

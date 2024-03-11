@@ -3,7 +3,7 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose";
 const _excluded = ["elementType", "externalSlotProps", "ownerState", "skipResolvingSlotProps"];
-import { unstable_useForkRef as useForkRef } from '@mui/utils';
+import { unstable_useForkRef as useForkRef } from 'my-mui/utils';
 import { appendOwnerState } from './appendOwnerState';
 import { mergeSlotProps } from './mergeSlotProps';
 import { resolveComponentProps } from './resolveComponentProps';

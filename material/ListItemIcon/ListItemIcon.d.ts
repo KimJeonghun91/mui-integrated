@@ -1,12 +1,12 @@
 import * as React from 'react';
-import { SxProps } from '@mui/system';
+import { SxProps } from 'my-mui/system';
 import { InternalStandardProps as StandardProps, Theme } from '..';
 import { ListItemIconClasses } from './listItemIconClasses';
 
 export interface ListItemIconProps extends StandardProps<React.HTMLAttributes<HTMLDivElement>> {
   /**
    * The content of the component, normally `Icon`, `SvgIcon`,
-   * or a `@mui/icons-material` SVG icon element.
+   * or a `my-mui/icons-material` SVG icon element.
    */
   children?: React.ReactNode;
   /**

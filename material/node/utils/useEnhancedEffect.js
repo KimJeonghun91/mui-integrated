@@ -6,5 +6,5 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _useEnhancedEffect = _interopRequireDefault(require("@mui/utils/useEnhancedEffect"));
+var _useEnhancedEffect = _interopRequireDefault(require("my-mui/utils/useEnhancedEffect"));
 var _default = exports.default = _useEnhancedEffect.default;

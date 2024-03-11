@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ButtonBaseProps } from '@mui/material/ButtonBase';
+import { ButtonBaseProps } from 'my-mui/material/ButtonBase';
 import { ExtendMui } from '../internals/models/helpers';
 import { PickersDayClasses } from './pickersDayClasses';
 export interface ExportedPickersDayProps {

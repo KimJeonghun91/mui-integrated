@@ -1,5 +1,5 @@
-import { getPath } from '@mui/system';
-import { alpha } from '@mui/system/colorManipulator';
+import { getPath } from 'my-mui/system';
+import { alpha } from 'my-mui/system/colorManipulator';
 export var colorTransformations = {
   primary: 'primary.main',
   textPrimary: 'text.primary',

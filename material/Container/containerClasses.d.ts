@@ -1,5 +1,5 @@
-import { ContainerClasses } from '@mui/system';
-export type { ContainerClassKey } from '@mui/system';
+import { ContainerClasses } from 'my-mui/system';
+export type { ContainerClassKey } from 'my-mui/system';
 export type { ContainerClasses };
 export declare function getContainerUtilityClass(slot: string): string;
 declare const containerClasses: ContainerClasses;

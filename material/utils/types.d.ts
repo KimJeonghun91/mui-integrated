@@ -1,6 +1,6 @@
 /// <reference types="react" />
-import { SxProps } from '@mui/system';
-import { SlotComponentProps } from '@mui/base';
+import { SxProps } from 'my-mui/system';
+import { SlotComponentProps } from 'my-mui/base';
 export type SlotCommonProps = {
     component?: React.ElementType;
     sx?: SxProps;

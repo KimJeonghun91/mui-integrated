@@ -4,9 +4,9 @@ const _excluded = ["autoFocus", "className", "value", "defaultValue", "reference
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import { useTheme } from '@mui/system';
-import { styled, useThemeProps } from '@mui/material/styles';
-import { unstable_useForkRef as useForkRef, unstable_composeClasses as composeClasses, unstable_useControlled as useControlled, unstable_useEventCallback as useEventCallback } from '@mui/utils';
+import { useTheme } from 'my-mui/system';
+import { styled, useThemeProps } from 'my-mui/material/styles';
+import { unstable_useForkRef as useForkRef, unstable_composeClasses as composeClasses, unstable_useControlled as useControlled, unstable_useEventCallback as useEventCallback } from 'my-mui/utils';
 import { PickersYear } from './PickersYear';
 import { useUtils, useNow, useDefaultDates } from '../internals/hooks/useUtils';
 import { getYearCalendarUtilityClass } from './yearCalendarClasses';

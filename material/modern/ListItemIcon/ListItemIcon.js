@@ -6,7 +6,7 @@ const _excluded = ["className"];
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import composeClasses from '@mui/utils/composeClasses';
+import composeClasses from 'my-mui/utils/composeClasses';
 import styled from '../styles/styled';
 import useThemeProps from '../styles/useThemeProps';
 import { getListItemIconUtilityClass } from './listItemIconClasses';
@@ -73,7 +73,7 @@ process.env.NODE_ENV !== "production" ? ListItemIcon.propTypes /* remove-proptyp
   // └─────────────────────────────────────────────────────────────────────┘
   /**
    * The content of the component, normally `Icon`, `SvgIcon`,
-   * or a `@mui/icons-material` SVG icon element.
+   * or a `my-mui/icons-material` SVG icon element.
    */
   children: PropTypes.node,
   /**

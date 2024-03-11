@@ -22,8 +22,8 @@ exports.private_safeEmphasize = private_safeEmphasize;
 exports.private_safeLighten = private_safeLighten;
 exports.recomposeColor = recomposeColor;
 exports.rgbToHex = rgbToHex;
-var _formatMuiErrorMessage2 = _interopRequireDefault(require("@mui/utils/formatMuiErrorMessage"));
-var _clamp = _interopRequireDefault(require("@mui/utils/clamp"));
+var _formatMuiErrorMessage2 = _interopRequireDefault(require("my-mui/utils/formatMuiErrorMessage"));
+var _clamp = _interopRequireDefault(require("my-mui/utils/clamp"));
 /* eslint-disable @typescript-eslint/naming-convention */
 
 /**

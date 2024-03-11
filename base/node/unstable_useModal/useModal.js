@@ -8,7 +8,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.useModal = useModal;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 var React = _interopRequireWildcard(require("react"));
-var _utils = require("@mui/utils");
+var _utils = require("my-mui/utils");
 var _utils2 = require("../utils");
 var _ModalManager = require("./ModalManager");
 function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }

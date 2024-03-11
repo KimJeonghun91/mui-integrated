@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Theme } from '@mui/material/styles';
-import { SxProps } from '@mui/system';
+import { Theme } from 'my-mui/material/styles';
+import { SxProps } from 'my-mui/system';
 import { DayCalendarSkeletonClasses } from './dayCalendarSkeletonClasses';
 type HTMLDivProps = React.JSX.IntrinsicElements['div'];
 export interface DayCalendarSkeletonProps extends HTMLDivProps {

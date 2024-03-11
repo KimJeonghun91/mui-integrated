@@ -7,7 +7,7 @@ var _span;
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import composeClasses from '@mui/utils/composeClasses';
+import composeClasses from 'my-mui/utils/composeClasses';
 import capitalize from '../utils/capitalize';
 import Typography from '../Typography';
 import FormControlContext from '../FormControl/FormControlContext';

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { ButtonProps } from '@mui/material/Button';
-import { TypographyProps } from '@mui/material/Typography';
+import { ButtonProps } from 'my-mui/material/Button';
+import { TypographyProps } from 'my-mui/material/Typography';
 import { ExtendMui } from '../models/helpers';
 import { PickersToolbarButtonClasses } from './pickersToolbarButtonClasses';
 export interface PickersToolbarButtonProps extends ExtendMui<ButtonProps, 'value' | 'variant'> {

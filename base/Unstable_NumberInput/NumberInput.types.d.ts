@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import { Simplify } from '@mui/types';
+import { Simplify } from 'my-mui/types';
 import { FormControlState } from '../FormControl';
 import { UseNumberInputParameters, UseNumberInputRootSlotProps, UseNumberInputIncrementButtonSlotProps, UseNumberInputDecrementButtonSlotProps } from '../unstable_useNumberInput/useNumberInput.types';
 import { PolymorphicProps, SlotComponentProps } from '../utils';

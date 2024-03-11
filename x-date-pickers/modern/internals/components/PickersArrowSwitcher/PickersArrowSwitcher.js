@@ -5,11 +5,11 @@ const _excluded = ["children", "className", "slots", "slotProps", "isNextDisable
   _excluded3 = ["ownerState"];
 import * as React from 'react';
 import clsx from 'clsx';
-import Typography from '@mui/material/Typography';
-import { useTheme, styled, useThemeProps } from '@mui/material/styles';
-import { unstable_composeClasses as composeClasses } from '@mui/utils';
-import { useSlotProps } from '@mui/base/utils';
-import IconButton from '@mui/material/IconButton';
+import Typography from 'my-mui/material/Typography';
+import { useTheme, styled, useThemeProps } from 'my-mui/material/styles';
+import { unstable_composeClasses as composeClasses } from 'my-mui/utils';
+import { useSlotProps } from 'my-mui/base/utils';
+import IconButton from 'my-mui/material/IconButton';
 import { ArrowLeftIcon, ArrowRightIcon } from '../../../icons';
 import { getPickersArrowSwitcherUtilityClass } from './pickersArrowSwitcherClasses';
 import { jsx as _jsx } from "react/jsx-runtime";

@@ -1,6 +1,6 @@
 /// <reference types="react" />
-import { SlotComponentProps } from '@mui/base/utils';
-import MenuItem from '@mui/material/MenuItem';
+import { SlotComponentProps } from 'my-mui/base/utils';
+import MenuItem from 'my-mui/material/MenuItem';
 import { MultiSectionDigitalClockClasses } from './multiSectionDigitalClockClasses';
 import { UncapitalizeObjectKeys } from '../internals/utils/slots-migration';
 import { BaseClockProps, ExportedBaseClockProps, MultiSectionDigitalClockOnlyProps } from '../internals/models/props/clock';
@@ -20,7 +20,7 @@ export interface MultiSectionDigitalClockViewProps<TValue> extends Pick<MultiSec
 export interface MultiSectionDigitalClockSlotsComponent {
     /**
      * Component responsible for rendering a single multi section digital clock section item.
-     * @default MenuItem from '@mui/material'
+     * @default MenuItem from 'my-mui/material'
      */
     DigitalClockSectionItem?: React.ElementType;
 }

@@ -1,7 +1,7 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
 import * as React from 'react';
-import Divider from '@mui/material/Divider';
-import { resolveComponentProps } from '@mui/base/utils';
+import Divider from 'my-mui/material/Divider';
+import { resolveComponentProps } from 'my-mui/base/utils';
 import { DateCalendar } from '../DateCalendar';
 import { multiSectionDigitalClockSectionClasses } from '../MultiSectionDigitalClock';
 import { DateTimeViewWrapper } from '../internals/components/DateTimeViewWrapper';

@@ -6,8 +6,8 @@ const _excluded = ["children", "className", "component", "image", "src", "style"
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import chainPropTypes from '@mui/utils/chainPropTypes';
-import composeClasses from '@mui/utils/composeClasses';
+import chainPropTypes from 'my-mui/utils/chainPropTypes';
+import composeClasses from 'my-mui/utils/composeClasses';
 import useThemeProps from '../styles/useThemeProps';
 import styled from '../styles/styled';
 import { getCardMediaUtilityClass } from './cardMediaClasses';

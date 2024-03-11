@@ -4,7 +4,7 @@ import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutProperties";
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { unstable_debounce as debounce, unstable_useForkRef as useForkRef, unstable_useEnhancedEffect as useEnhancedEffect, unstable_ownerWindow as ownerWindow } from '@mui/utils';
+import { unstable_debounce as debounce, unstable_useForkRef as useForkRef, unstable_useEnhancedEffect as useEnhancedEffect, unstable_ownerWindow as ownerWindow } from 'my-mui/utils';
 import { jsx as _jsx } from "react/jsx-runtime";
 import { jsxs as _jsxs } from "react/jsx-runtime";
 function getStyleValue(value) {

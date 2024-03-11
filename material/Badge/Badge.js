@@ -6,10 +6,10 @@ const _excluded = ["anchorOrigin", "className", "classes", "component", "compone
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import usePreviousProps from '@mui/utils/usePreviousProps';
-import composeClasses from '@mui/utils/composeClasses';
-import { useBadge } from '@mui/base/useBadge';
-import { useSlotProps } from '@mui/base/utils';
+import usePreviousProps from 'my-mui/utils/usePreviousProps';
+import composeClasses from 'my-mui/utils/composeClasses';
+import { useBadge } from 'my-mui/base/useBadge';
+import { useSlotProps } from 'my-mui/base/utils';
 import { styled, createUseThemeProps } from '../zero-styled';
 import capitalize from '../utils/capitalize';
 import badgeClasses, { getBadgeUtilityClass } from './badgeClasses';

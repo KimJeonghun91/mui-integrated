@@ -9,7 +9,7 @@ var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends")
 var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutPropertiesLoose"));
 var React = _interopRequireWildcard(require("react"));
 var _propTypes = _interopRequireDefault(require("prop-types"));
-var _styles = require("@mui/material/styles");
+var _styles = require("my-mui/material/styles");
 var _jsxRuntime = require("react/jsx-runtime");
 const _excluded = ["localeText"];
 function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
@@ -70,7 +70,7 @@ const LocalizationProvider = exports.LocalizationProvider = function Localizatio
       instance: dateLibInstance
     });
     if (!adapter.isMUIAdapter) {
-      throw new Error(['MUI: The date adapter should be imported from `@mui/x-date-pickers` or `@mui/x-date-pickers-pro`, not from `@date-io`', "For example, `import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'` instead of `import AdapterDayjs from '@date-io/dayjs'`", 'More information on the installation documentation: https://mui.com/x/react-date-pickers/getting-started/#installation'].join(`\n`));
+      throw new Error(['MUI: The date adapter should be imported from `my-mui/x-date-pickers` or `my-mui/x-date-pickers-pro`, not from `@date-io`', "For example, `import { AdapterDayjs } from 'my-mui/x-date-pickers/AdapterDayjs'` instead of `import AdapterDayjs from '@date-io/dayjs'`", 'More information on the installation documentation: https://mui.com/x/react-date-pickers/getting-started/#installation'].join(`\n`));
     }
     return adapter;
   }, [DateAdapter, adapterLocale, dateFormats, dateLibInstance, parentUtils]);

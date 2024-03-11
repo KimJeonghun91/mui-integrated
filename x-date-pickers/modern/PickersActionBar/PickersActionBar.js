@@ -3,8 +3,8 @@ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWith
 const _excluded = ["onAccept", "onClear", "onCancel", "onSetToday", "actions"];
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import Button from '@mui/material/Button';
-import DialogActions from '@mui/material/DialogActions';
+import Button from 'my-mui/material/Button';
+import DialogActions from 'my-mui/material/DialogActions';
 import { useLocaleText } from '../internals/hooks/useUtils';
 import { jsx as _jsx } from "react/jsx-runtime";
 /**

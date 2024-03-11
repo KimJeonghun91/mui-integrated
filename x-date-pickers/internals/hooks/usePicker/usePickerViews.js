@@ -2,8 +2,8 @@ import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose";
 const _excluded = ["className", "sx"];
 import * as React from 'react';
-import useEnhancedEffect from '@mui/utils/useEnhancedEffect';
-import useEventCallback from '@mui/utils/useEventCallback';
+import useEnhancedEffect from 'my-mui/utils/useEnhancedEffect';
+import useEventCallback from 'my-mui/utils/useEventCallback';
 import { useViews } from '../useViews';
 import { isTimeView } from '../../utils/time-utils';
 

@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.generateUtilityClass = generateUtilityClass;
 exports.isGlobalState = isGlobalState;
-var _generateUtilityClass = require("@mui/utils/generateUtilityClass");
+var _generateUtilityClass = require("my-mui/utils/generateUtilityClass");
 const GLOBAL_CLASS_PREFIX = 'base';
 function buildStateClass(state) {
   return `${GLOBAL_CLASS_PREFIX}--${state}`;

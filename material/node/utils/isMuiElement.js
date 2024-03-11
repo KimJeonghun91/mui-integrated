@@ -5,5 +5,5 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _isMuiElement = _interopRequireDefault(require("@mui/utils/isMuiElement"));
+var _isMuiElement = _interopRequireDefault(require("my-mui/utils/isMuiElement"));
 var _default = exports.default = _isMuiElement.default;

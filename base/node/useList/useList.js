@@ -8,7 +8,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.useList = useList;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 var React = _interopRequireWildcard(require("react"));
-var _utils = require("@mui/utils");
+var _utils = require("my-mui/utils");
 var _listActions = require("./listActions.types");
 var _listReducer = require("./listReducer");
 var _useControllableReducer = require("../utils/useControllableReducer");

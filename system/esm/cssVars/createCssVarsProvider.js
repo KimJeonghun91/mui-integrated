@@ -1,12 +1,12 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose";
-import _formatMuiErrorMessage from "@mui/utils/formatMuiErrorMessage";
+import _formatMuiErrorMessage from "my-mui/utils/formatMuiErrorMessage";
 const _excluded = ["colorSchemes", "components", "generateCssVars", "cssVarPrefix"];
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import deepmerge from '@mui/utils/deepmerge';
-import { GlobalStyles } from '@mui/styled-engine';
-import { useTheme as muiUseTheme } from '@mui/private-theming';
+import deepmerge from 'my-mui/utils/deepmerge';
+import { GlobalStyles } from 'my-mui/styled-engine';
+import { useTheme as muiUseTheme } from 'my-mui/private-theming';
 import ThemeProvider from '../ThemeProvider';
 import systemGetInitColorSchemeScript, { DEFAULT_ATTRIBUTE, DEFAULT_COLOR_SCHEME_STORAGE_KEY, DEFAULT_MODE_STORAGE_KEY } from './getInitColorSchemeScript';
 import useCurrentColorScheme from './useCurrentColorScheme';

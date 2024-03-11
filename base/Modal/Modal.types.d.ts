@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Simplify } from '@mui/types';
+import { Simplify } from 'my-mui/types';
 import { PortalProps } from '../Portal';
 import { PolymorphicProps, SlotComponentProps } from '../utils';
 export interface ModalRootSlotPropsOverrides {

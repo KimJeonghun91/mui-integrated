@@ -5,7 +5,7 @@ import _extends from "@babel/runtime/helpers/esm/extends";
 const _excluded = ["disableAnimation", "margin", "shrink", "variant", "className"];
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import composeClasses from '@mui/utils/composeClasses';
+import composeClasses from 'my-mui/utils/composeClasses';
 import clsx from 'clsx';
 import formControlState from '../FormControl/formControlState';
 import useFormControl from '../FormControl/useFormControl';

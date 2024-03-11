@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.useDefaultReduceAnimations = exports.slowAnimationDevices = void 0;
-var _useMediaQuery = _interopRequireDefault(require("@mui/material/useMediaQuery"));
+var _useMediaQuery = _interopRequireDefault(require("my-mui/material/useMediaQuery"));
 const PREFERS_REDUCED_MOTION = '@media (prefers-reduced-motion: reduce)';
 
 // detect if user agent has Android version < 10 or iOS version < 13

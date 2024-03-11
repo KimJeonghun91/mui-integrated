@@ -2,7 +2,7 @@
 
 import _extends from "@babel/runtime/helpers/esm/extends";
 import * as React from 'react';
-import { unstable_useEventCallback as useEventCallback, unstable_useTimeout as useTimeout } from '@mui/utils';
+import { unstable_useEventCallback as useEventCallback, unstable_useTimeout as useTimeout } from 'my-mui/utils';
 import { extractEventHandlers } from '../utils/extractEventHandlers';
 /**
  * The basic building block for creating custom snackbar.

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { MUIStyledCommonProps, SxProps } from '@mui/system';
-import { PopperProps } from '@mui/material/Popper';
+import { MUIStyledCommonProps, SxProps } from 'my-mui/system';
+import { PopperProps } from 'my-mui/material/Popper';
 import { InternalStandardProps as StandardProps, Theme } from '..';
 import { TransitionProps } from '../transitions/transition';
 import { TooltipClasses } from './tooltipClasses';

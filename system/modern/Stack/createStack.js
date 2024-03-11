@@ -4,9 +4,9 @@ const _excluded = ["component", "direction", "spacing", "divider", "children", "
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import deepmerge from '@mui/utils/deepmerge';
-import generateUtilityClass from '@mui/utils/generateUtilityClass';
-import composeClasses from '@mui/utils/composeClasses';
+import deepmerge from 'my-mui/utils/deepmerge';
+import generateUtilityClass from 'my-mui/utils/generateUtilityClass';
+import composeClasses from 'my-mui/utils/composeClasses';
 import systemStyled from '../styled';
 import useThemePropsSystem from '../useThemeProps';
 import { extendSxProp } from '../styleFunctionSx';

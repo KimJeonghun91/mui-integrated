@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.useDatePickerDefaultizedProps = useDatePickerDefaultizedProps;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 var React = _interopRequireWildcard(require("react"));
-var _styles = require("@mui/material/styles");
+var _styles = require("my-mui/material/styles");
 var _useUtils = require("../internals/hooks/useUtils");
 var _views = require("../internals/utils/views");
 var _dateUtils = require("../internals/utils/date-utils");

@@ -1,2 +1,2 @@
-export { default } from '@mui/system/useMediaQuery';
-export * from '@mui/system/useMediaQuery';
+export { default } from 'my-mui/system/useMediaQuery';
+export * from 'my-mui/system/useMediaQuery';

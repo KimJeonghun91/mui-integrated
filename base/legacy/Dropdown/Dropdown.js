@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { exactProp } from '@mui/utils';
+import { exactProp } from 'my-mui/utils';
 import { DropdownContext } from '../useDropdown/DropdownContext';
 import { useDropdown } from '../useDropdown/useDropdown';
 /**

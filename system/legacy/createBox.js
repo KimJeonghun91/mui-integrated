@@ -4,7 +4,7 @@ import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutProperties";
 import * as React from 'react';
 import clsx from 'clsx';
-import styled from '@mui/styled-engine';
+import styled from 'my-mui/styled-engine';
 import styleFunctionSx, { extendSxProp } from './styleFunctionSx';
 import useTheme from './useTheme';
 import { jsx as _jsx } from "react/jsx-runtime";

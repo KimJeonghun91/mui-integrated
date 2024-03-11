@@ -1,4 +1,4 @@
-import { unstable_generateUtilityClass as generateUtilityClass, unstable_generateUtilityClasses as generateUtilityClasses } from '@mui/utils';
+import { unstable_generateUtilityClass as generateUtilityClass, unstable_generateUtilityClasses as generateUtilityClasses } from 'my-mui/utils';
 export var getPickersFadeTransitionGroupUtilityClass = function getPickersFadeTransitionGroupUtilityClass(slot) {
   return generateUtilityClass('MuiPickersFadeTransitionGroup', slot);
 };

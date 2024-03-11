@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { OverrideProps } from '@mui/types';
+import { OverrideProps } from 'my-mui/types';
 import { ResponsiveStyleValue, SxProps } from '../styleFunctionSx';
 import { SystemProps } from '../Box';
 import { Theme } from '../createTheme';

@@ -1,5 +1,5 @@
-import _formatMuiErrorMessage from "@mui/utils/formatMuiErrorMessage";
-export { css, keyframes, StyledEngineProvider } from '@mui/styled-engine';
+import _formatMuiErrorMessage from "my-mui/utils/formatMuiErrorMessage";
+export { css, keyframes, StyledEngineProvider } from 'my-mui/styled-engine';
 export { default as GlobalStyles } from './GlobalStyles';
 export { default as borders } from './borders';
 export * from './borders';

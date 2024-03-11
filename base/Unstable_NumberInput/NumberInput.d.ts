@@ -1,4 +1,4 @@
-import { OverridableComponent } from '@mui/types';
+import { OverridableComponent } from 'my-mui/types';
 import { NumberInputTypeMap } from './NumberInput.types';
 /**
  *

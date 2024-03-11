@@ -1,7 +1,7 @@
 'use client';
 
 import PropTypes from 'prop-types';
-import { createGrid as createGrid2 } from '@mui/system/Unstable_Grid';
+import { createGrid as createGrid2 } from 'my-mui/system/Unstable_Grid';
 import { styled, useThemeProps } from '../styles';
 const Grid2 = createGrid2({
   createStyledComponent: styled('div', {

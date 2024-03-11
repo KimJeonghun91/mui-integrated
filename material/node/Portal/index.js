@@ -9,4 +9,4 @@ Object.defineProperty(exports, "default", {
     return _Portal.Portal;
   }
 });
-var _Portal = require("@mui/base/Portal");
+var _Portal = require("my-mui/base/Portal");

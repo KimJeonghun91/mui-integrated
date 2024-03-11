@@ -5,8 +5,8 @@ import {
   SystemProps,
   Breakpoint,
   BreakpointOverrides,
-} from '@mui/system';
-import { IfEquals } from '@mui/types';
+} from 'my-mui/system';
+import { IfEquals } from 'my-mui/types';
 import { Theme } from '../styles';
 import { OverridableComponent, OverrideProps } from '../OverridableComponent';
 import { GridClasses } from './gridClasses';

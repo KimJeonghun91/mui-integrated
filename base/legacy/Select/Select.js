@@ -5,7 +5,7 @@ import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutPr
 var _span;
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { unstable_useForkRef as useForkRef } from '@mui/utils';
+import { unstable_useForkRef as useForkRef } from 'my-mui/utils';
 import { useSelect } from '../useSelect';
 import { useSlotProps } from '../utils';
 import { Popup } from '../Unstable_Popup/Popup';

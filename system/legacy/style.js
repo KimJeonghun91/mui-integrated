@@ -1,5 +1,5 @@
 import _defineProperty from "@babel/runtime/helpers/esm/defineProperty";
-import capitalize from '@mui/utils/capitalize';
+import capitalize from 'my-mui/utils/capitalize';
 import responsivePropType from './responsivePropType';
 import { handleBreakpoints } from './breakpoints';
 export function getPath(obj, path) {

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Simplify } from '@mui/types';
+import { Simplify } from 'my-mui/types';
 import { FormControlState } from '../FormControl';
 import { UseInputParameters, UseInputRootSlotProps } from '../useInput';
 import { PolymorphicProps, SlotComponentProps } from '../utils';

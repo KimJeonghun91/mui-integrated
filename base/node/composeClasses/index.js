@@ -9,4 +9,4 @@ Object.defineProperty(exports, "unstable_composeClasses", {
     return _utils.unstable_composeClasses;
   }
 });
-var _utils = require("@mui/utils");
+var _utils = require("my-mui/utils");

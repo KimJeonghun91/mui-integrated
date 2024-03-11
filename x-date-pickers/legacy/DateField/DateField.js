@@ -5,10 +5,10 @@ var _excluded = ["components", "componentsProps", "slots", "slotProps", "InputPr
   _excluded3 = ["ref", "onPaste", "onKeyDown", "inputMode", "readOnly", "clearable", "onClear"];
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import MuiTextField from '@mui/material/TextField';
-import { useThemeProps } from '@mui/material/styles';
-import { useSlotProps } from '@mui/base/utils';
-import { refType } from '@mui/utils';
+import MuiTextField from 'my-mui/material/TextField';
+import { useThemeProps } from 'my-mui/material/styles';
+import { useSlotProps } from 'my-mui/base/utils';
+import { refType } from 'my-mui/utils';
 import { useDateField } from './useDateField';
 import { useClearableField } from '../hooks';
 import { jsx as _jsx } from "react/jsx-runtime";

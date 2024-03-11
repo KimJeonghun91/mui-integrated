@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { OverrideProps, IfEquals } from '@mui/types';
+import { OverrideProps, IfEquals } from 'my-mui/types';
 import { SxProps } from '../styleFunctionSx';
 import { Theme, Breakpoint, BreakpointOverrides } from '../createTheme';
 import { SystemProps } from '../Box';

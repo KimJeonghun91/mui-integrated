@@ -1,4 +1,4 @@
-import capitalize from '@mui/utils/capitalize';
+import capitalize from 'my-mui/utils/capitalize';
 import merge from '../merge';
 import { getPath, getStyleValue as getValue } from '../style';
 import { handleBreakpoints, createEmptyBreakpointObject, removeUnusedBreakpoints } from '../breakpoints';

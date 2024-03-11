@@ -4,9 +4,9 @@ const _excluded = ["autoFocus", "className", "day", "disabled", "disableHighligh
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import ButtonBase from '@mui/material/ButtonBase';
-import { unstable_useEnhancedEffect as useEnhancedEffect, unstable_composeClasses as composeClasses, unstable_useForkRef as useForkRef } from '@mui/utils';
-import { alpha, styled, useThemeProps } from '@mui/material/styles';
+import ButtonBase from 'my-mui/material/ButtonBase';
+import { unstable_useEnhancedEffect as useEnhancedEffect, unstable_composeClasses as composeClasses, unstable_useForkRef as useForkRef } from 'my-mui/utils';
+import { alpha, styled, useThemeProps } from 'my-mui/material/styles';
 import { useUtils } from '../internals/hooks/useUtils';
 import { DAY_SIZE, DAY_MARGIN } from '../internals/constants/dimensions';
 import { getPickersDayUtilityClass, pickersDayClasses } from './pickersDayClasses';

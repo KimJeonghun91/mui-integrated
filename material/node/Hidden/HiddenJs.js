@@ -8,7 +8,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var React = _interopRequireWildcard(require("react"));
 var _propTypes = _interopRequireDefault(require("prop-types"));
-var _exactProp = _interopRequireDefault(require("@mui/utils/exactProp"));
+var _exactProp = _interopRequireDefault(require("my-mui/utils/exactProp"));
 var _withWidth = _interopRequireWildcard(require("./withWidth"));
 var _useTheme = _interopRequireDefault(require("../styles/useTheme"));
 var _jsxRuntime = require("react/jsx-runtime");

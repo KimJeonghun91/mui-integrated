@@ -1,4 +1,4 @@
-import { OverridableComponent } from '@mui/types';
+import { OverridableComponent } from 'my-mui/types';
 import { BoxTypeMap } from './Box';
 import { Theme as SystemTheme } from './createTheme';
 

@@ -2,8 +2,8 @@ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWith
 import _extends from "@babel/runtime/helpers/esm/extends";
 const _excluded = ["autoFocus", "children", "disabled", "selected", "value", "tabIndex", "onClick", "onKeyDown", "onFocus", "onBlur", "aria-current", "aria-label", "monthsPerRow"];
 import * as React from 'react';
-import { styled, alpha, useThemeProps } from '@mui/material/styles';
-import { unstable_composeClasses as composeClasses, unstable_useEnhancedEffect as useEnhancedEffect } from '@mui/utils';
+import { styled, alpha, useThemeProps } from 'my-mui/material/styles';
+import { unstable_composeClasses as composeClasses, unstable_useEnhancedEffect as useEnhancedEffect } from 'my-mui/utils';
 import { getPickersMonthUtilityClass, pickersMonthClasses } from './pickersMonthClasses';
 import { jsx as _jsx } from "react/jsx-runtime";
 const useUtilityClasses = ownerState => {

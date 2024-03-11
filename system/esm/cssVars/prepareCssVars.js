@@ -2,7 +2,7 @@ import _extends from "@babel/runtime/helpers/esm/extends";
 import _toPropertyKey from "@babel/runtime/helpers/esm/toPropertyKey";
 import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose";
 const _excluded = ["colorSchemes", "components", "defaultColorScheme"];
-import deepmerge from '@mui/utils/deepmerge';
+import deepmerge from 'my-mui/utils/deepmerge';
 import cssVarsParser from './cssVarsParser';
 function prepareCssVars(theme, parserConfig) {
   // @ts-ignore - ignore components do not exist

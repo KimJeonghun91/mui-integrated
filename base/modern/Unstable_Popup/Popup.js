@@ -6,7 +6,7 @@ const _excluded = ["anchor", "children", "container", "disablePortal", "keepMoun
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import { autoUpdate, flip, offset, shift, useFloating } from '@floating-ui/react-dom';
-import { HTMLElementType, unstable_useEnhancedEffect as useEnhancedEffect, unstable_useForkRef as useForkRef } from '@mui/utils';
+import { HTMLElementType, unstable_useEnhancedEffect as useEnhancedEffect, unstable_useForkRef as useForkRef } from 'my-mui/utils';
 import { unstable_composeClasses as composeClasses } from '../composeClasses';
 import { Portal } from '../Portal';
 import { useSlotProps } from '../utils';

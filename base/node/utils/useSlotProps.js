@@ -8,7 +8,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.useSlotProps = useSlotProps;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutPropertiesLoose"));
-var _utils = require("@mui/utils");
+var _utils = require("my-mui/utils");
 var _appendOwnerState = require("./appendOwnerState");
 var _mergeSlotProps = require("./mergeSlotProps");
 var _resolveComponentProps = require("./resolveComponentProps");

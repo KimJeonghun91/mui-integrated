@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _propTypes = _interopRequireDefault(require("prop-types"));
-var _system = require("@mui/system");
+var _system = require("my-mui/system");
 var _capitalize = _interopRequireDefault(require("../utils/capitalize"));
 var _styled = _interopRequireDefault(require("../styles/styled"));
 var _useThemeProps = _interopRequireDefault(require("../styles/useThemeProps"));

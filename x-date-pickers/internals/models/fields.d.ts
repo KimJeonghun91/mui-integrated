@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { TextFieldProps } from '@mui/material/TextField';
+import { TextFieldProps } from 'my-mui/material/TextField';
 import type { UseFieldInternalProps } from '../hooks/useField';
 import type { FieldSection } from '../../models';
 export interface BaseFieldProps<TValue, TDate, TSection extends FieldSection, TError> extends Omit<UseFieldInternalProps<TValue, TDate, TSection, TError>, 'format'> {

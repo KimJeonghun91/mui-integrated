@@ -3,7 +3,7 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
 import _slicedToArray from "@babel/runtime/helpers/esm/slicedToArray";
 import * as React from 'react';
-import { unstable_useControlled as useControlled, unstable_useForkRef as useForkRef, unstable_useIsFocusVisible as useIsFocusVisible } from '@mui/utils';
+import { unstable_useControlled as useControlled, unstable_useForkRef as useForkRef, unstable_useIsFocusVisible as useIsFocusVisible } from 'my-mui/utils';
 /**
  * The basic building block for creating custom switches.
  *

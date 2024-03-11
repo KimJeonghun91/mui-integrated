@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { DistributiveOmit } from '@mui/types';
+import { DistributiveOmit } from 'my-mui/types';
 import { StyledComponentProps } from './styles';
 
 /**

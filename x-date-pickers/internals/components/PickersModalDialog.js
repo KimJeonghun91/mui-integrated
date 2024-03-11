@@ -1,9 +1,9 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
 import * as React from 'react';
-import DialogContent from '@mui/material/DialogContent';
-import Fade from '@mui/material/Fade';
-import MuiDialog, { dialogClasses } from '@mui/material/Dialog';
-import { styled } from '@mui/material/styles';
+import DialogContent from 'my-mui/material/DialogContent';
+import Fade from 'my-mui/material/Fade';
+import MuiDialog, { dialogClasses } from 'my-mui/material/Dialog';
+import { styled } from 'my-mui/material/styles';
 import { DIALOG_WIDTH } from '../constants/dimensions';
 import { jsx as _jsx } from "react/jsx-runtime";
 const PickersModalDialogRoot = styled(MuiDialog)({

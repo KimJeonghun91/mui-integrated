@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Simplify } from '@mui/types';
+import { Simplify } from 'my-mui/types';
 import { SlotComponentProps } from '../utils';
 import { PolymorphicProps } from '../utils/PolymorphicComponent';
 export interface TabsRootSlotPropsOverrides {

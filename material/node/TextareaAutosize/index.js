@@ -9,4 +9,4 @@ Object.defineProperty(exports, "default", {
     return _TextareaAutosize.TextareaAutosize;
   }
 });
-var _TextareaAutosize = require("@mui/base/TextareaAutosize");
+var _TextareaAutosize = require("my-mui/base/TextareaAutosize");

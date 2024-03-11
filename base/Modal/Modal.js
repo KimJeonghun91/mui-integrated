@@ -5,7 +5,7 @@ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWith
 const _excluded = ["children", "closeAfterTransition", "container", "disableAutoFocus", "disableEnforceFocus", "disableEscapeKeyDown", "disablePortal", "disableRestoreFocus", "disableScrollLock", "hideBackdrop", "keepMounted", "onBackdropClick", "onClose", "onKeyDown", "open", "onTransitionEnter", "onTransitionExited", "slotProps", "slots"];
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { elementAcceptingRef, HTMLElementType } from '@mui/utils';
+import { elementAcceptingRef, HTMLElementType } from 'my-mui/utils';
 import { useSlotProps } from '../utils';
 import { useClassNamesOverride } from '../utils/ClassNameConfigurator';
 import { unstable_composeClasses as composeClasses } from '../composeClasses';

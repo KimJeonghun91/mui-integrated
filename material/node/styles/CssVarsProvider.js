@@ -10,8 +10,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.useColorScheme = exports.getInitColorSchemeScript = exports.Experimental_CssVarsProvider = void 0;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
-var _system = require("@mui/system");
-var _styleFunctionSx = _interopRequireDefault(require("@mui/system/styleFunctionSx"));
+var _system = require("my-mui/system");
+var _styleFunctionSx = _interopRequireDefault(require("my-mui/system/styleFunctionSx"));
 var _experimental_extendTheme = _interopRequireDefault(require("./experimental_extendTheme"));
 var _createTypography = _interopRequireDefault(require("./createTypography"));
 var _excludeVariablesFromRoot = _interopRequireDefault(require("./excludeVariablesFromRoot"));

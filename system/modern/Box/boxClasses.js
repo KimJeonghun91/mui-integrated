@@ -1,3 +1,3 @@
-import generateUtilityClasses from '@mui/utils/generateUtilityClasses';
+import generateUtilityClasses from 'my-mui/utils/generateUtilityClasses';
 const boxClasses = generateUtilityClasses('MuiBox', ['root']);
 export default boxClasses;

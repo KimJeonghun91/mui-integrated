@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.useTimePickerDefaultizedProps = useTimePickerDefaultizedProps;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 var React = _interopRequireWildcard(require("react"));
-var _styles = require("@mui/material/styles");
+var _styles = require("my-mui/material/styles");
 var _useUtils = require("../internals/hooks/useUtils");
 var _TimePickerToolbar = require("./TimePickerToolbar");
 var _views = require("../internals/utils/views");

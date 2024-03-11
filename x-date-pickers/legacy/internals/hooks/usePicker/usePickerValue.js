@@ -1,8 +1,8 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
 import _slicedToArray from "@babel/runtime/helpers/esm/slicedToArray";
 import * as React from 'react';
-import { unstable_useControlled as useControlled } from '@mui/utils';
-import useEventCallback from '@mui/utils/useEventCallback';
+import { unstable_useControlled as useControlled } from 'my-mui/utils';
+import useEventCallback from 'my-mui/utils/useEventCallback';
 import { useOpenState } from '../useOpenState';
 import { useLocalizationContext, useUtils } from '../useUtils';
 import { useValidation } from '../useValidation';

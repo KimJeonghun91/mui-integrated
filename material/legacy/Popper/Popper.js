@@ -2,10 +2,10 @@
 
 import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutProperties";
-import { Popper as BasePopper } from '@mui/base/Popper';
-import useTheme from '@mui/system/useThemeWithoutDefault';
-import refType from '@mui/utils/refType';
-import HTMLElementType from '@mui/utils/HTMLElementType';
+import { Popper as BasePopper } from 'my-mui/base/Popper';
+import useTheme from 'my-mui/system/useThemeWithoutDefault';
+import refType from 'my-mui/utils/refType';
+import HTMLElementType from 'my-mui/utils/HTMLElementType';
 import PropTypes from 'prop-types';
 import * as React from 'react';
 import { styled, useThemeProps } from '../styles';

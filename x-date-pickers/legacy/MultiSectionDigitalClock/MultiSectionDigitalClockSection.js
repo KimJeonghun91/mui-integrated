@@ -3,11 +3,11 @@ import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutPr
 var _excluded = ["autoFocus", "onChange", "className", "disabled", "readOnly", "items", "active", "slots", "slotProps", "skipDisabled"];
 import * as React from 'react';
 import clsx from 'clsx';
-import { alpha, styled, useThemeProps } from '@mui/material/styles';
-import composeClasses from '@mui/utils/composeClasses';
-import MenuList from '@mui/material/MenuList';
-import MenuItem from '@mui/material/MenuItem';
-import useForkRef from '@mui/utils/useForkRef';
+import { alpha, styled, useThemeProps } from 'my-mui/material/styles';
+import composeClasses from 'my-mui/utils/composeClasses';
+import MenuList from 'my-mui/material/MenuList';
+import MenuItem from 'my-mui/material/MenuItem';
+import useForkRef from 'my-mui/utils/useForkRef';
 import { getMultiSectionDigitalClockSectionUtilityClass } from './multiSectionDigitalClockSectionClasses';
 import { DIGITAL_CLOCK_VIEW_HEIGHT, MULTI_SECTION_CLOCK_SECTION_WIDTH } from '../internals/constants/dimensions';
 import { jsx as _jsx } from "react/jsx-runtime";

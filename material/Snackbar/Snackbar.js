@@ -6,10 +6,10 @@ const _excluded = ["onEnter", "onExited"],
   _excluded2 = ["action", "anchorOrigin", "autoHideDuration", "children", "className", "ClickAwayListenerProps", "ContentProps", "disableWindowBlurListener", "message", "onBlur", "onClose", "onFocus", "onMouseEnter", "onMouseLeave", "open", "resumeHideDuration", "TransitionComponent", "transitionDuration", "TransitionProps"];
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { useSlotProps } from '@mui/base/utils';
-import composeClasses from '@mui/utils/composeClasses';
-import { ClickAwayListener } from '@mui/base/ClickAwayListener';
-import { useSnackbar } from '@mui/base/useSnackbar';
+import { useSlotProps } from 'my-mui/base/utils';
+import composeClasses from 'my-mui/utils/composeClasses';
+import { ClickAwayListener } from 'my-mui/base/ClickAwayListener';
+import { useSnackbar } from 'my-mui/base/useSnackbar';
 import styled from '../styles/styled';
 import useTheme from '../styles/useTheme';
 import useThemeProps from '../styles/useThemeProps';

@@ -3,7 +3,7 @@ import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutPr
 var _excluded = ["localeText"];
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { useThemeProps } from '@mui/material/styles';
+import { useThemeProps } from 'my-mui/material/styles';
 import { jsx as _jsx } from "react/jsx-runtime";
 export var MuiPickersAdapterContext = /*#__PURE__*/React.createContext(null);
 if (process.env.NODE_ENV !== 'production') {
@@ -59,7 +59,7 @@ export var LocalizationProvider = function LocalizationProvider(inProps) {
       instance: dateLibInstance
     });
     if (!adapter.isMUIAdapter) {
-      throw new Error(['MUI: The date adapter should be imported from `@mui/x-date-pickers` or `@mui/x-date-pickers-pro`, not from `@date-io`', "For example, `import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'` instead of `import AdapterDayjs from '@date-io/dayjs'`", 'More information on the installation documentation: https://mui.com/x/react-date-pickers/getting-started/#installation'].join("\n"));
+      throw new Error(['MUI: The date adapter should be imported from `my-mui/x-date-pickers` or `my-mui/x-date-pickers-pro`, not from `@date-io`', "For example, `import { AdapterDayjs } from 'my-mui/x-date-pickers/AdapterDayjs'` instead of `import AdapterDayjs from '@date-io/dayjs'`", 'More information on the installation documentation: https://mui.com/x/react-date-pickers/getting-started/#installation'].join("\n"));
     }
     return adapter;
   }, [DateAdapter, adapterLocale, dateFormats, dateLibInstance, parentUtils]);

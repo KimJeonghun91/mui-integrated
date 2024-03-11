@@ -9,4 +9,4 @@ Object.defineProperty(exports, "unstable_ClassNameGenerator", {
     return _utils.unstable_ClassNameGenerator;
   }
 });
-var _utils = require("@mui/utils");
+var _utils = require("my-mui/utils");

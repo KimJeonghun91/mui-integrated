@@ -1,8 +1,8 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { resolveComponentProps } from '@mui/base/utils';
-import { refType } from '@mui/utils';
+import { resolveComponentProps } from 'my-mui/base/utils';
+import { refType } from 'my-mui/utils';
 import { useMobilePicker } from '../internals/hooks/useMobilePicker';
 import { useDatePickerDefaultizedProps } from '../DatePicker/shared';
 import { useLocaleText, useUtils, validateDate } from '../internals';

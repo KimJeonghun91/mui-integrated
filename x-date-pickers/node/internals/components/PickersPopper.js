@@ -8,14 +8,14 @@ exports.PickersPopper = PickersPopper;
 var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutPropertiesLoose"));
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 var React = _interopRequireWildcard(require("react"));
-var _utils = require("@mui/base/utils");
-var _Grow = _interopRequireDefault(require("@mui/material/Grow"));
-var _Fade = _interopRequireDefault(require("@mui/material/Fade"));
-var _Paper = _interopRequireDefault(require("@mui/material/Paper"));
-var _Popper = _interopRequireDefault(require("@mui/material/Popper"));
-var _Unstable_TrapFocus = _interopRequireDefault(require("@mui/material/Unstable_TrapFocus"));
-var _utils2 = require("@mui/utils");
-var _styles = require("@mui/material/styles");
+var _utils = require("my-mui/base/utils");
+var _Grow = _interopRequireDefault(require("my-mui/material/Grow"));
+var _Fade = _interopRequireDefault(require("my-mui/material/Fade"));
+var _Paper = _interopRequireDefault(require("my-mui/material/Paper"));
+var _Popper = _interopRequireDefault(require("my-mui/material/Popper"));
+var _Unstable_TrapFocus = _interopRequireDefault(require("my-mui/material/Unstable_TrapFocus"));
+var _utils2 = require("my-mui/utils");
+var _styles = require("my-mui/material/styles");
 var _pickersPopperClasses = require("./pickersPopperClasses");
 var _utils3 = require("../utils/utils");
 var _useDefaultReduceAnimations = require("../hooks/useDefaultReduceAnimations");
@@ -58,7 +58,7 @@ function clickedRootScrollbar(event, doc) {
   return doc.documentElement.clientWidth < event.clientX || doc.documentElement.clientHeight < event.clientY;
 }
 /**
- * Based on @mui/material/ClickAwayListener without the customization.
+ * Based on my-mui/material/ClickAwayListener without the customization.
  * We can probably strip away even more since children won't be portaled.
  * @param {boolean} active Only listen to clicks when the popper is opened.
  * @param {(event: MouseEvent | TouchEvent) => void} onClickAway The callback to call when clicking outside the popper.

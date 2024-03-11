@@ -4,10 +4,10 @@ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWith
 import _extends from "@babel/runtime/helpers/esm/extends";
 const _excluded = ["disableUnderline", "components", "componentsProps", "fullWidth", "hiddenLabel", "inputComponent", "multiline", "slotProps", "slots", "type"];
 import * as React from 'react';
-import deepmerge from '@mui/utils/deepmerge';
-import refType from '@mui/utils/refType';
+import deepmerge from 'my-mui/utils/deepmerge';
+import refType from 'my-mui/utils/refType';
 import PropTypes from 'prop-types';
-import composeClasses from '@mui/utils/composeClasses';
+import composeClasses from 'my-mui/utils/composeClasses';
 import InputBase from '../InputBase';
 import styled, { rootShouldForwardProp } from '../styles/styled';
 import useThemeProps from '../styles/useThemeProps';

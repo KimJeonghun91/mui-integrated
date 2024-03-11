@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _system = require("@mui/system");
+var _system = require("my-mui/system");
 var _propTypes = _interopRequireDefault(require("prop-types"));
 var _className = require("../className");
 var _styles = require("../styles");

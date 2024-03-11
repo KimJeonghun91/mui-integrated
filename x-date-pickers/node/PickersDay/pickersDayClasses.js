@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.getPickersDayUtilityClass = getPickersDayUtilityClass;
 exports.pickersDayClasses = void 0;
-var _utils = require("@mui/utils");
+var _utils = require("my-mui/utils");
 function getPickersDayUtilityClass(slot) {
   return (0, _utils.unstable_generateUtilityClass)('MuiPickersDay', slot);
 }

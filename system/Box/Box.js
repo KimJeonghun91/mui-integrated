@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _propTypes = _interopRequireDefault(require("prop-types"));
-var _ClassNameGenerator = _interopRequireDefault(require("@mui/utils/ClassNameGenerator"));
+var _ClassNameGenerator = _interopRequireDefault(require("my-mui/utils/ClassNameGenerator"));
 var _createBox = _interopRequireDefault(require("../createBox"));
 var _boxClasses = _interopRequireDefault(require("./boxClasses"));
 const Box = (0, _createBox.default)({

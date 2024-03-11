@@ -1,9 +1,9 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose";
-import _formatMuiErrorMessage from "@mui/utils/formatMuiErrorMessage";
+import _formatMuiErrorMessage from "my-mui/utils/formatMuiErrorMessage";
 const _excluded = ["mode", "contrastThreshold", "tonalOffset"];
-import deepmerge from '@mui/utils/deepmerge';
-import { darken, getContrastRatio, lighten } from '@mui/system/colorManipulator';
+import deepmerge from 'my-mui/utils/deepmerge';
+import { darken, getContrastRatio, lighten } from 'my-mui/system/colorManipulator';
 import common from '../colors/common';
 import grey from '../colors/grey';
 import purple from '../colors/purple';
@@ -222,7 +222,7 @@ The color object needs to have a \`main\` property or a \`${mainShade}\` propert
 
 Did you intend to use one of the following approaches?
 
-import { green } from "@mui/material/colors";
+import { green } from "my-mui/material/colors";
 
 const theme1 = createTheme({ palette: {
   primary: green,

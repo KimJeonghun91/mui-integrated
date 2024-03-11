@@ -5,5 +5,5 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _deprecatedPropType = _interopRequireDefault(require("@mui/utils/deprecatedPropType"));
+var _deprecatedPropType = _interopRequireDefault(require("my-mui/utils/deprecatedPropType"));
 var _default = exports.default = _deprecatedPropType.default;

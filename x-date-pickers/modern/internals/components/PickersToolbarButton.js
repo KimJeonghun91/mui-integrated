@@ -3,9 +3,9 @@ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWith
 const _excluded = ["align", "className", "selected", "typographyClassName", "value", "variant", "width"];
 import * as React from 'react';
 import clsx from 'clsx';
-import Button from '@mui/material/Button';
-import { styled, useThemeProps } from '@mui/material/styles';
-import { unstable_composeClasses as composeClasses } from '@mui/utils';
+import Button from 'my-mui/material/Button';
+import { styled, useThemeProps } from 'my-mui/material/styles';
+import { unstable_composeClasses as composeClasses } from 'my-mui/utils';
 import { PickersToolbarText } from './PickersToolbarText';
 import { getPickersToolbarUtilityClass } from './pickersToolbarClasses';
 import { jsx as _jsx } from "react/jsx-runtime";

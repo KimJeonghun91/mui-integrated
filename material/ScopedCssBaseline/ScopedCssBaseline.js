@@ -6,7 +6,7 @@ const _excluded = ["className", "component", "enableColorScheme"];
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import composeClasses from '@mui/utils/composeClasses';
+import composeClasses from 'my-mui/utils/composeClasses';
 import useThemeProps from '../styles/useThemeProps';
 import styled from '../styles/styled';
 import { html, body } from '../CssBaseline/CssBaseline';

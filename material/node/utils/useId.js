@@ -6,5 +6,5 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _useId = _interopRequireDefault(require("@mui/utils/useId"));
+var _useId = _interopRequireDefault(require("my-mui/utils/useId"));
 var _default = exports.default = _useId.default;

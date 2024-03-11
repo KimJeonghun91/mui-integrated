@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { DistributiveOmit } from '@mui/types';
+import { DistributiveOmit } from 'my-mui/types';
 import { StyledComponentProps } from './styles';
 
 export { StyledComponentProps };
@@ -477,11 +477,11 @@ export { default as GlobalStyles } from './GlobalStyles';
 export * from './GlobalStyles';
 
 /**
- * @deprecated will be removed in v5.beta, please use StyledEngineProvider from @mui/material/styles instead
+ * @deprecated will be removed in v5.beta, please use StyledEngineProvider from my-mui/material/styles instead
  */
 export { StyledEngineProvider } from './styles';
 
-export { unstable_composeClasses } from '@mui/base/composeClasses';
+export { unstable_composeClasses } from 'my-mui/base/composeClasses';
 
 export { default as generateUtilityClass } from './generateUtilityClass';
 export * from './generateUtilityClass';

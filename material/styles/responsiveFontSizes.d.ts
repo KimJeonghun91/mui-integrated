@@ -1,4 +1,4 @@
-import { Breakpoint } from '@mui/system';
+import { Breakpoint } from 'my-mui/system';
 import { Typography } from './createTypography';
 import { Theme } from './createTheme';
 

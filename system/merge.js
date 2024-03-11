@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _deepmerge = _interopRequireDefault(require("@mui/utils/deepmerge"));
+var _deepmerge = _interopRequireDefault(require("my-mui/utils/deepmerge"));
 function merge(acc, item) {
   if (!item) {
     return acc;

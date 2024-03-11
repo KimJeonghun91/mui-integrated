@@ -11,7 +11,7 @@ Object.defineProperty(exports, "default", {
     return _useAutocomplete.useAutocomplete;
   }
 });
-var _useAutocomplete = require("@mui/base/useAutocomplete");
+var _useAutocomplete = require("my-mui/base/useAutocomplete");
 Object.keys(_useAutocomplete).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;

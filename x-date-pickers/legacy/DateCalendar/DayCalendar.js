@@ -4,11 +4,11 @@ import _extends from "@babel/runtime/helpers/esm/extends";
 var _excluded = ["parentProps", "day", "focusableDay", "selectedDays", "isDateDisabled", "currentMonthNumber", "isViewFocused"],
   _excluded2 = ["ownerState"];
 import * as React from 'react';
-import useEventCallback from '@mui/utils/useEventCallback';
-import Typography from '@mui/material/Typography';
-import { useSlotProps } from '@mui/base/utils';
-import { styled, useTheme, useThemeProps } from '@mui/material/styles';
-import { unstable_composeClasses as composeClasses, unstable_useControlled as useControlled } from '@mui/utils';
+import useEventCallback from 'my-mui/utils/useEventCallback';
+import Typography from 'my-mui/material/Typography';
+import { useSlotProps } from 'my-mui/base/utils';
+import { styled, useTheme, useThemeProps } from 'my-mui/material/styles';
+import { unstable_composeClasses as composeClasses, unstable_useControlled as useControlled } from 'my-mui/utils';
 import clsx from 'clsx';
 import { PickersDay } from '../PickersDay/PickersDay';
 import { useUtils, useNow, useLocaleText } from '../internals/hooks/useUtils';

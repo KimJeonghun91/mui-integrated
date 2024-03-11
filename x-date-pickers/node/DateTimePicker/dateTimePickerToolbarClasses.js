@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.dateTimePickerToolbarClasses = void 0;
 exports.getDateTimePickerToolbarUtilityClass = getDateTimePickerToolbarUtilityClass;
-var _utils = require("@mui/utils");
+var _utils = require("my-mui/utils");
 function getDateTimePickerToolbarUtilityClass(slot) {
   return (0, _utils.unstable_generateUtilityClass)('MuiDateTimePickerToolbar', slot);
 }

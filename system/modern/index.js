@@ -1,12 +1,12 @@
 /**
- * @mui/system v5.15.12
+ * my-mui/system v5.15.12
  *
  * @license MIT
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-import _formatMuiErrorMessage from "@mui/utils/formatMuiErrorMessage";
-export { css, keyframes, StyledEngineProvider } from '@mui/styled-engine';
+import _formatMuiErrorMessage from "my-mui/utils/formatMuiErrorMessage";
+export { css, keyframes, StyledEngineProvider } from 'my-mui/styled-engine';
 export { default as GlobalStyles } from './GlobalStyles';
 export { default as borders } from './borders';
 export * from './borders';

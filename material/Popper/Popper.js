@@ -3,10 +3,10 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose";
 const _excluded = ["anchorEl", "component", "components", "componentsProps", "container", "disablePortal", "keepMounted", "modifiers", "open", "placement", "popperOptions", "popperRef", "transition", "slots", "slotProps"];
-import { Popper as BasePopper } from '@mui/base/Popper';
-import useTheme from '@mui/system/useThemeWithoutDefault';
-import refType from '@mui/utils/refType';
-import HTMLElementType from '@mui/utils/HTMLElementType';
+import { Popper as BasePopper } from 'my-mui/base/Popper';
+import useTheme from 'my-mui/system/useThemeWithoutDefault';
+import refType from 'my-mui/utils/refType';
+import HTMLElementType from 'my-mui/utils/HTMLElementType';
 import PropTypes from 'prop-types';
 import * as React from 'react';
 import { styled, useThemeProps } from '../styles';

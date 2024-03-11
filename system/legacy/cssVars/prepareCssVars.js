@@ -2,7 +2,7 @@ import _extends from "@babel/runtime/helpers/esm/extends";
 import _slicedToArray from "@babel/runtime/helpers/esm/slicedToArray";
 import _toPropertyKey from "@babel/runtime/helpers/esm/toPropertyKey";
 import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutProperties";
-import deepmerge from '@mui/utils/deepmerge';
+import deepmerge from 'my-mui/utils/deepmerge';
 import cssVarsParser from './cssVarsParser';
 function prepareCssVars(theme, parserConfig) {
   // @ts-ignore - ignore components do not exist

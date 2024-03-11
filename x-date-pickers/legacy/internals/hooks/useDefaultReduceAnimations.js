@@ -1,4 +1,4 @@
-import useMediaQuery from '@mui/material/useMediaQuery';
+import useMediaQuery from 'my-mui/material/useMediaQuery';
 var PREFERS_REDUCED_MOTION = '@media (prefers-reduced-motion: reduce)';
 
 // detect if user agent has Android version < 10 or iOS version < 13

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-declare module '@mui/types' {
+declare module 'my-mui/types' {
   /**
    * A component whose root component can be controlled via a `component` prop.
    *

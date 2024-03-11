@@ -1,7 +1,7 @@
 import _slicedToArray from "@babel/runtime/helpers/esm/slicedToArray";
 import * as React from 'react';
-import useEventCallback from '@mui/utils/useEventCallback';
-import useControlled from '@mui/utils/useControlled';
+import useEventCallback from 'my-mui/utils/useEventCallback';
+import useControlled from 'my-mui/utils/useControlled';
 import { useUtils } from './useUtils';
 /**
  * Hooks making sure that:

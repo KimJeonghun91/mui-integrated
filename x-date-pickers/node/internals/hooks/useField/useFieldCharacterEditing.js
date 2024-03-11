@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.useFieldCharacterEditing = void 0;
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 var React = _interopRequireWildcard(require("react"));
-var _useEventCallback = _interopRequireDefault(require("@mui/utils/useEventCallback"));
+var _useEventCallback = _interopRequireDefault(require("my-mui/utils/useEventCallback"));
 var _useUtils = require("../useUtils");
 var _useField = require("./useField.utils");
 function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
