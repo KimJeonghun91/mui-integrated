@@ -35,10 +35,10 @@ export const light = {
     // The color of an active action like an icon button.
     active: 'rgba(0, 0, 0, 0.54)',
     // The color of an hovered action.
-    hover: 'rgba(0, 0, 0, 0.04)',
+    hover: blue[100], // 'rgba(0, 0, 0, 0.04)',
     hoverOpacity: 0.04,
     // The color of a selected action.
-    selected: 'rgba(0, 0, 0, 0.08)',
+    selected: blue[200], //'rgba(0, 0, 0, 0.08)',
     selectedOpacity: 0.08,
     // The color of a disabled action.
     disabled: 'rgba(0, 0, 0, 0.26)',
@@ -176,10 +176,10 @@ function getDefaultWarning(mode = 'light') {
 }
 export default function createPalette(palette) {
   const {
-      mode = 'light',
-      contrastThreshold = 3,
-      tonalOffset = 0.2
-    } = palette,
+    mode = 'light',
+    contrastThreshold = 3,
+    tonalOffset = 0.2
+  } = palette,
     other = _objectWithoutPropertiesLoose(palette, _excluded);
   const primary = palette.primary || getDefaultPrimary(mode);
   const secondary = palette.secondary || getDefaultSecondary(mode);
