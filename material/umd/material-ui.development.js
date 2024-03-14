@@ -10282,7 +10282,7 @@
       hover: 'rgba(0, 0, 0, 0.04)',
       hoverOpacity: 0.04,
       // The color of a selected action.
-      selected: 'rgba(0, 0, 0, 0.08)',
+      selected: blue[50], // 'rgba(0, 0, 0, 0.08)',
       selectedOpacity: 0.08,
       // The color of a disabled action.
       disabled: 'rgba(0, 0, 0, 0.26)',
